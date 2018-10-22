@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="NCSU History GPS Game.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Cradle\Documentation\Harlowe.md">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Mapbox\Unity\Location\ExampleGpsTraces\Helsinki.txt">
     <Files>
       <File FileName="Assets\Cradle\Documentation\Harlowe.md" Line="5" Column="1" />
+      <File FileName="Assets\Mapbox\Unity\Location\ExampleGpsTraces\Helsinki.txt" Line="269" Column="218" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

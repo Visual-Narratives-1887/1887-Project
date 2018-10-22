@@ -5,8 +5,8 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Maptest.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/62cd16bb16102a94b8a6007b46fffa29
     guid: 62cd16bb16102a94b8a6007b46fffa29
   - enabled: 1
     path: Assets/cradleSample.unity
