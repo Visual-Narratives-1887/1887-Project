@@ -336,6 +336,7 @@
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Utility\ConversionHelper.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Utility\IntPtrEqualityComparer.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Utility\MarshalingHelper.cs" />
+    <Compile Include="Assets\mainmenu.cs" />
     <Compile Include="Assets\Mapbox\Core\cheap-ruler-cs\CheapRuler.cs" />
     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Directions\DirectionResource.cs" />
     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Directions\Directions.cs" />
@@ -688,6 +689,7 @@
     <Compile Include="Assets\MapboxAR\Unity\Ar\SnapAlignmentStrategy.cs" />
     <Compile Include="Assets\MapboxAR\Unity\Ar\Utilities\PlotRoute.cs" />
     <Compile Include="Assets\Test.cs" />
+    <Compile Include="Assets\Test1.cs" />
     <Compile Include="Assets\TwineTransition.cs" />
     <Compile Include="Assets\UnityARInterface\ARRemote\Scripts\ARRemoteDevice.cs" />
     <Compile Include="Assets\UnityARInterface\ARRemote\Scripts\ARRemoteEditor.cs" />
