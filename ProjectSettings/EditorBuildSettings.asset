@@ -8,12 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/MainMenu.unity
-    guid: 1645457c69000d24cbcd9113d359f5cb
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/cradleSample.unity
     guid: 1a4152d4f0473ad44abccaf63f173959
-  - enabled: 1
-    path: Assets/Maptest.unity
-    guid: 00caec6958401924cab3a09c9b8f9abf
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000

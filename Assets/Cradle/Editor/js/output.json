@@ -1,64 +1,13 @@
 {
-    "console": [],
-    "result": {
-        "passages": [
-            {
-                "Name": "Test",
-                "Pid": "1",
-                "Tags": "",
-                "Tokens": [
-                    {
-                        "text": "Hello World",
-                        "type": "text"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "innerText": "link-goto:\"New Page\",\"New Page\"",
-                        "name": "linkgoto",
-                        "text": "(link-goto:\"New Page\",\"New Page\")",
-                        "tokens": [
-                            {
-                                "text": "link-goto:",
-                                "type": "macroName"
-                            },
-                            {
-                                "innerText": "New Page",
-                                "text": "\"New Page\"",
-                                "type": "string"
-                            },
-                            {
-                                "text": ",",
-                                "type": "comma"
-                            },
-                            {
-                                "innerText": "New Page",
-                                "text": "\"New Page\"",
-                                "type": "string"
-                            }
-                        ],
-                        "type": "macro"
-                    }
-                ]
-            },
-            {
-                "Name": "New Page",
-                "Pid": "2",
-                "Tags": "",
-                "Tokens": [
-                    {
-                        "text": "You will be redirected.",
-                        "type": "text"
-                    }
-                ]
-            }
-        ],
-        "startPid": "1"
-    }
+    "console": [
+        {
+            "type": "error",
+            "value": "ReferenceError: Can't find variable: $",
+            "trace": "[\n    {\n        \"file\": \"undefined\",\n        \"line\": 11,\n        \"function\": \"\"\n    }\n]"
+        },
+        {
+            "type": "error",
+            "value": "Timeout while trying to extract the story data."
+        }
+    ]
 }
