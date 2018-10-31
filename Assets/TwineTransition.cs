@@ -35,7 +35,7 @@ public class TwineTransition : MonoBehaviour
     void DontKnow()
     {
         //Output this to console when the Button is clicked
-        SceneManager.LoadScene("cradleSample");
+        SceneManager.LoadScene("MainMenu");
     }
 
     void TaskWithParameters(string message)

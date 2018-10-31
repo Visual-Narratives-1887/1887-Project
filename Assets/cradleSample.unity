@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -117,6 +117,11 @@ NavMeshSettings:
 GameObject:
   m_PrefabParentObject: {fileID: 171642, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
   m_PrefabInternal: {fileID: 1416635890}
+--- !u!224 &52349136 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 22471642, guid: c4ae6fc83f0d4f64091afc0dccd76dd6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1416635890}
 --- !u!114 &52349137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,7 +130,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 52349135}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e9a6ac6f40201742a5d7ffa9fecb1a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 88fe8b87913e87f43836cf623bc713ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AutoPlay: 1
@@ -495,6 +500,34 @@ Prefab:
     - target: {fileID: 22353732, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11471642, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
+      propertyPath: m_Viewport
+      value: 
+      objectReference: {fileID: 52349136}
+    - target: {fileID: 11424160, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22467320, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22453726, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22453726, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22453726, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11453714, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
+      propertyPath: m_UiScaleMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
