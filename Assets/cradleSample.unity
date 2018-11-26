@@ -730,10 +730,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1980976742}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3b18850a9a8d4c4481c7205f666c37a, type: 3}
+  m_Script: {fileID: 11500000, guid: b8939795ea3975a4f9d57208e3460ede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AutoPlay: 0
-  StartPassage: Untitled Passage
+  StartPassage: childhood
   AdditionalCues: []
   DebugMode: 0
