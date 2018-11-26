@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Test</title>
+<title>Gameplay Narrative</title>
 <style title="Twine CSS">@-webkit-keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes appear{0%{opacity:0}to{opacity:1}}@-webkit-keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@-webkit-keyframes rumble{50%{-webkit-transform:translateY(-0.2em);transform:translateY(-0.2em)}}@keyframes rumble{50%{-webkit-transform:translateY(-0.2em);transform:translateY(-0.2em)}}@-webkit-keyframes shudder{50%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@keyframes shudder{50%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@-webkit-keyframes box-flash{0%{background-color:white;color:white}}@keyframes box-flash{0%{background-color:white;color:white}}@-webkit-keyframes pulse{0%{-webkit-transform:scale(0, 0);transform:scale(0, 0)}20%{-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2)}40%{-webkit-transform:scale(0.9, 0.9);transform:scale(0.9, 0.9)}60%{-webkit-transform:scale(1.05, 1.05);transform:scale(1.05, 1.05)}80%{-webkit-transform:scale(0.925, 0.925);transform:scale(0.925, 0.925)}to{-webkit-transform:scale(1, 1);transform:scale(1, 1)}}@keyframes pulse{0%{-webkit-transform:scale(0, 0);transform:scale(0, 0)}20%{-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2)}40%{-webkit-transform:scale(0.9, 0.9);transform:scale(0.9, 0.9)}60%{-webkit-transform:scale(1.05, 1.05);transform:scale(1.05, 1.05)}80%{-webkit-transform:scale(0.925, 0.925);transform:scale(0.925, 0.925)}to{-webkit-transform:scale(1, 1);transform:scale(1, 1)}}@-webkit-keyframes shudder-in{0%, to{-webkit-transform:translateX(0em);transform:translateX(0em)}5%, 25%, 45%{-webkit-transform:translateX(-1em);transform:translateX(-1em)}15%, 35%, 55%{-webkit-transform:translateX(1em);transform:translateX(1em)}65%{-webkit-transform:translateX(-0.6em);transform:translateX(-0.6em)}75%{-webkit-transform:translateX(0.6em);transform:translateX(0.6em)}85%{-webkit-transform:translateX(-0.2em);transform:translateX(-0.2em)}95%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@keyframes shudder-in{0%, to{-webkit-transform:translateX(0em);transform:translateX(0em)}5%, 25%, 45%{-webkit-transform:translateX(-1em);transform:translateX(-1em)}15%, 35%, 55%{-webkit-transform:translateX(1em);transform:translateX(1em)}65%{-webkit-transform:translateX(-0.6em);transform:translateX(-0.6em)}75%{-webkit-transform:translateX(0.6em);transform:translateX(0.6em)}85%{-webkit-transform:translateX(-0.2em);transform:translateX(-0.2em)}95%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}.debug-mode tw-expression[type=hookref]{background-color:rgba(115,123,140,0.15)}.debug-mode tw-expression[type=hookref]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"?" attr(name)}.debug-mode tw-expression[type=variable]{background-color:rgba(140,128,115,0.15)}.debug-mode tw-expression[type=variable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]{background-color:rgba(140,128,115,0.15)}.debug-mode tw-expression[type=tempVariable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[type=macro]:nth-of-type(4n+0){background-color:rgba(136,153,102,0.15)}.debug-mode tw-expression[type=macro]:nth-of-type(2n+1){background-color:rgba(102,153,102,0.15)}.debug-mode tw-expression[type=macro]:nth-of-type(4n+2){background-color:rgba(102,153,136,0.15)}.debug-mode tw-expression[type=macro][name="display"]{background-color:rgba(0,170,255,0.1) !important}.debug-mode tw-expression[type=macro][name="if"],.debug-mode tw-expression[type=macro][name="if"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro][name="unless"],.debug-mode tw-expression[type=macro][name="unless"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro][name="elseif"],.debug-mode tw-expression[type=macro][name="elseif"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro][name="else"],.debug-mode tw-expression[type=macro][name="else"]+tw-hook:not([name]){background-color:rgba(0,255,0,0.1) !important}.debug-mode tw-expression[type=macro].false{background-color:rgba(255,0,0,0.2) !important}.debug-mode tw-expression[type=macro].false+tw-hook:not([name]){display:none}.debug-mode tw-expression[type=macro][name="a"],.debug-mode tw-expression[type=macro][name="array"],.debug-mode tw-expression[type=macro][name="datamap"],.debug-mode tw-expression[type=macro][name="dataset"],.debug-mode tw-expression[type=macro][name="colour"],.debug-mode tw-expression[type=macro][name="color"],.debug-mode tw-expression[type=macro][name="num"],.debug-mode tw-expression[type=macro][name="number"],.debug-mode tw-expression[type=macro][name="text"],.debug-mode tw-expression[type=macro][name="print"]{background-color:rgba(255,255,0,0.2) !important}.debug-mode tw-expression[type=macro][name="put"],.debug-mode tw-expression[type=macro][name="set"]{background-color:rgba(255,128,0,0.2) !important}.debug-mode tw-expression[type=macro][name="script"]{background-color:rgba(255,191,0,0.2) !important}.debug-mode tw-expression[type=macro][name="style"]{background-color:rgba(185,198,198,0.2) !important}.debug-mode tw-expression[type=macro][name^="link"],.debug-mode tw-expression[type=macro][name^="click"],.debug-mode tw-expression[type=macro][name^="mouseover"],.debug-mode tw-expression[type=macro][name^="mouseout"]{background-color:rgba(128,223,32,0.2) !important}.debug-mode tw-expression[type=macro][name^="replace"],.debug-mode tw-expression[type=macro][name^="prepend"],.debug-mode tw-expression[type=macro][name^="append"],.debug-mode tw-expression[type=macro][name^="remove"]{background-color:rgba(223,96,32,0.2) !important}.debug-mode tw-expression[type=macro][name="live"]{background-color:rgba(32,96,223,0.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 0.5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,0.5)}.debug-mode tw-hook{background-color:rgba(0,85,255,0.1) !important}.debug-mode tw-hook::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,0.1) !important}.debug-mode tw-collapsed::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 50%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, rgba(255,204,189,0.25) 0%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,0.2)}.debug-mode tw-enchantment{animation:enchantment 0.5s infinite;-webkit-animation:enchantment 0.5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,0.1)}.debug-mode tw-include::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(type) ' "' attr(title) '"'}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}@-webkit-keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:10em;min-height:1em;padding:1em;font-size:1.25em;font-family:sans-serif;border-left:solid #000 2px;border-top:solid #000 2px;border-top-left-radius:.5em;background:#fff;opacity:1}tw-debugger select{margin-right:1em;width:12em}tw-debugger button{border-radius:3px;border:solid #999 1px;margin:auto 4px;background-color:#fff;font-size:inherit}tw-debugger button.enabled{background-color:#eee;box-shadow:inset #ddd 3px 5px 0.5em}tw-debugger .variables{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;max-height:40vh;overflow-y:scroll;overflow-x:hidden;z-index:999998;background:#fff;border:inherit;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:0.8em}tw-debugger .variables:empty,tw-debugger .variables[hidden]{display:none}tw-debugger .variables .variable-row{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:horizontal;-webkit-flex-direction:row;-moz-flex-direction:row;-ms-flex-direction:row;flex-direction:row;flex-shrink:0}tw-debugger .variables .variable-row:nth-child(2n){background:#EEE}tw-debugger .variables .variable-name{display:inline-block;width:50%}tw-debugger .variables .variable-name::before{content:"$"}tw-debugger .variables .variable-name.temporary::before{content:"_"}tw-debugger .variables .variable-name .temporary-variable-scope{opacity:0.8;font-size:0.75em}tw-debugger .variables .variable-name .temporary-variable-scope::before{content:" in "}tw-debugger .variables .variable-value{display:inline-block;width:50%}tw-link,.link,tw-icon,.enchantment-clickblock{cursor:pointer}tw-link,.enchantment-link{color:#4169E1;font-weight:bold;text-decoration:none;transition:color 0.2s ease-in-out}tw-enchantment[style^="color"] tw-link:not(:hover),tw-enchantment[style*=" color"] tw-link:not(:hover),tw-enchantment[style^="color"] .enchantment-link:not(:hover),tw-enchantment[style*=" color"] .enchantment-link:not(:hover){color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#DD4B39}.visited{color:#6941e1}tw-enchantment[style^="color"] .visited:not(:hover),tw-enchantment[style*=" color"] .visited:not(:hover){color:inherit}.visited:hover{color:#E3E}tw-broken-link{color:#993333;border-bottom:2px solid #993333;cursor:not-allowed}tw-enchantment[style^="color"] tw-broken-link:not(:hover),tw-enchantment[style*=" color"] tw-broken-link:not(:hover){color:inherit}.enchantment-mouseover{border-bottom:1px dashed #666}.enchantment-mouseout{border:rgba(64,149,191,0.25) 1px solid}.enchantment-mouseout:hover{background-color:rgba(64,149,191,0.25);border:transparent 1px solid;border-radius:0.2em}.enchantment-clickblock{box-shadow:inset 0 0 0 0.5vmax;display:block;color:rgba(65,105,225,0.5);transition:color 0.2s ease-in-out}.enchantment-clickblock:hover{color:rgba(0,191,255,0.5)}.enchantment-clickblock:active{color:rgba(222,78,59,0.5)}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;font:100% Georgia, serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 20%;margin:0;background-color:#000;color:#fff}tw-passage{display:block}br+br{display:block;height:0;margin:0.8ex 0}tw-sidebar{left:-5em;width:3em;position:absolute;text-align:center;display:block}tw-icon{display:block;margin:0.5em 0;opacity:0.1;font-size:2.75em}tw-icon:hover{opacity:0.3}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:0.2em;padding:0.2em;font-size:1rem;cursor:help}tw-error.error{background-color:rgba(223,58,190,0.4);color:#fff}tw-error.warning{background-color:rgba(223,140,58,0.4);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:0.8rem;line-height:1rem}tw-error-explanation-button{cursor:pointer;line-height:0em;border-radius:1px;border:1px solid black;font-size:0.8rem;margin:0 0.4rem;opacity:0.5}tw-error-explanation-button .folddown-arrowhead{display:inline-block}tw-notifier{border-radius:0.2em;padding:0.2em;font-size:1rem;background-color:rgba(223,182,58,0.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid black;display:inline-block;width:1em;height:1em}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:0.3em 0 0.6em 0}pre{font-size:1rem}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,0.6);background-color:#ff9}ins{color:rgba(0,0,0,0.6);background-color:rgba(255,242,204,0.5);border-radius:0.5em;box-shadow:0em 0em 0.2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate;-webkit-animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:horizontal;-webkit-flex-direction:row;-moz-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-justify-content:space-between;-moz-justify-content:space-between;justify-content:space-between}tw-outline{color:white;text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000}tw-shadow{text-shadow:0.08em 0.08em 0.08em #000}tw-emboss{text-shadow:0.08em 0.08em 0em #000;color:white}tw-condense{letter-spacing:-0.08em}tw-expand{letter-spacing:0.1em}tw-blur{color:transparent;text-shadow:0em 0em 0.08em #000}tw-blurrier{color:transparent;text-shadow:0em 0em 0.2em #000}tw-blurrier::selection{background-color:transparent;color:transparent}tw-blurrier::-moz-selection{background-color:transparent;color:transparent}tw-smear{color:transparent;text-shadow:0em 0em 0.02em rgba(0,0,0,0.75),-0.2em 0em 0.5em rgba(0,0,0,0.5),0.2em 0em 0.5em rgba(0,0,0,0.5)}tw-mirror{display:inline-block;transform:scaleX(-1);-webkit-transform:scaleX(-1)}tw-upside-down{display:inline-block;transform:scaleY(-1);-webkit-transform:scaleY(-1)}tw-fade-in-out{text-decoration:none;animation:fade-in-out 2s ease-in-out infinite alternate;-webkit-animation:fade-in-out 2s ease-in-out infinite alternate}tw-rumble{-webkit-animation:rumble linear 0.1s 0s infinite;animation:rumble linear 0.1s 0s infinite;display:inline-block}tw-shudder{-webkit-animation:shudder linear 0.1s 0s infinite;animation:shudder linear 0.1s 0s infinite;display:inline-block}tw-shudder-in{animation:shudder-in 1s ease-out;-webkit-animation:shudder-in 1s ease-out}.transition-in{-webkit-animation:appear 0ms step-start;animation:appear 0ms step-start}.transition-out{-webkit-animation:appear 0ms step-end;animation:appear 0ms step-end}[data-t8n^=fade-in].transition-in{-webkit-animation:appear .8s;animation:appear .8s}[data-t8n^=fade-in].transition-out{display:none}[data-t8n^=dissolve].transition-in{-webkit-animation:appear .8s;animation:appear .8s}[data-t8n^=dissolve].transition-out{-webkit-animation:appear .8s reverse;animation:appear .8s reverse}[data-t8n^=shudder-in].transition-in,.transition-in[data-t8n^=shudder]{display:inline-block;-webkit-animation:shudder-in .8s;animation:shudder-in .8s}[data-t8n^=shudder-out].transition-out,.transition-out[data-t8n^=shudder]{display:inline-block;-webkit-animation:shudder-out .8s;animation:shudder-out .8s}[data-t8n^=boxflash].transition-in{-webkit-animation:box-flash .8s;animation:box-flash .8s}[data-t8n^=pulse].transition-in{-webkit-animation:pulse .8s;animation:pulse .8s;display:inline-block}[data-t8n^=pulse].transition-out{-webkit-animation:pulse .8s reverse;animation:pulse .8s reverse;display:inline-block}[data-t8n$=fast]{animation-duration:.4s;-webkit-animation-duration:.4s}[data-t8n$=slow]{animation-duration:1.6s;-webkit-animation-duration:1.6s}
 </style>
 </head>
@@ -11,11 +11,297 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Test" startnode="1" creator="Twine" creator-version="2.2.1" ifid="C8FA7373-CBD1-4C81-B2DF-CCCE73B0B245" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">
-</script><tw-passagedata pid="1" name="Test" tags="" position="412,187" size="100,100">Hello World
+<tw-storydata name="Gameplay Narrative" startnode="3" creator="Twine" creator-version="2.2.1" ifid="B78A0936-D99D-4B70-941B-EA73DFED3C20" zoom="0.6" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
 
-[[New Page]]</tw-passagedata><tw-passagedata pid="2" name="New Page" tags="" position="412,337" size="100,100">You will be redirected.</tw-passagedata></tw-storydata>
+
+
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+
+
+</script><tw-passagedata pid="1" name="Welcome" tags="" position="691,224" size="100,100">I walk up to the main campus carrying my cases, ready to begin my year at North Carolina State College of Agriculture and Mechanic Arts. As I step onto the campus and you see a small sign in front of the a large building. A sense of excitement and anticipation fills me as I read:
+
+Hello student! We will be providing you a more formal welcome with an information packet and map as you proceed to the administrative building. This building was originally constructed in 1889 and referred to as the Main building but wwas recently renamed Holladay Hall
+
+I smile at the memory and the long summers spent in fake wars that always ended in elaborate and dramatic death scenes. Now we both were here, sharing a dorm room and forging our paths that we decided so early during those hot summer days. 
+
+I need to [[find him soon]], as we will be sharing a room this semester.
+
+</tw-passagedata><tw-passagedata pid="2" name="Holladay Hall" tags="" position="664,508" size="100,100">As I enter the main entry for Holladay Hall and see a hive of activity.
+New and returning students are milling around the stairway leading to the offices and rooms above. Lights hanging above wood parquet flooring illuminate the grand hallway. The walls are papered with notices and posters outlining progress of student organizations, graduating classes, and perhaps most importantly, the war effort.  Several catch my eye:
+
+[[Victory Gardens!]]  Support the War Effort!
+[[Battle the Flu]] Kaiser Bill&#39;s ally
+[[Agricultural Extension]] notices
+
+I sigh and wonder when this dreadful war will be over. America’s involvement had begun only recently, but it resulted in the fantasies of my youth coming true, at least in part, for good and ill. We, Alex and I will both be soldiers in training, cadets, along with most of the other students on campus.  I am still not thrilled at the propspect, but I understand the need.  Pacisfism didn&#39;t work to stop the German machine.  Maybe innovation can.
+ 
+ You turn down a [[long hallway]]
+</tw-passagedata><tw-passagedata pid="3" name="childhood" tags="" position="703,26" size="100,100">“Alex! I’ve got you!  Bang Bang!”
+
+ I grin, &quot;No! I&#39;ve got you!  I pulled out my pistol first!&quot;  Bang Bang!
+
+“Arrrrrrg! “ Alex falls to the ground theatrically and you laugh delightedly. &quot;[[you win]] this time, but I will get my revenge the next battle we have!&quot;
+
+**OR
+
+Alex neatly ducks the shot and points his rifle at you. &quot;Bang Bang!&quot; I stop in my tracks and clutch my chest. &quot;Arrrrrrg.&quot;  I fall dramatically to the ground and start convulsing grotesquely.  [[Alex crows in triumph]] as he laughs. &quot;I win!  I win!&quot;
+
+I smile and stop my death spasms and sit up. &quot;Maybe you won this time, but not for long!&quot;</tw-passagedata><tw-passagedata pid="4" name="long hallway" tags="" position="684,665" size="100,100">One poster in particular makes you pause: a nurse has her face covered with a mask and warns the viewer the ways in which the flu can be avoided. The rumors of a deadly contagion, the Spanish Flu, reaching the shores of America are frightening. One warning makes you feel better, get fresh air and sunshine.  You are a farmer, no danger there.
+
+Will the flu hit Raleigh?
+
+Another poster catches you eye as you pass by: A picture of a victory garden
+
+You smile smugly; gardens not only help health and well-being, but help the war effort too.
+
+You turn toward the [[reception]] desk at the end of the hallway</tw-passagedata><tw-passagedata pid="5" name="reception" tags="" position="686,853" size="100,100">You approach the secretary at the admissions desk and greet her.
+You notice yet another poster on the wall next to reception 
+&lt;img src=&quot;Images/Vaccine poster.jpg&quot; /&gt;
+
+“Hello, madam. My name is &lt;&lt;&quot;$name&quot; &quot;&quot;&gt;&gt; and I need to check in and find my dorm room.
+
+She looks up and smiles politely. She rifles through a set of files on her desk and selects one to hand to you.
+
+“Good afternoon, &lt;&lt;&quot;$name&quot; &quot;&quot;&gt;&gt;, and welcome. Here is an information packet with you new map, assigned room, a key for the room, and instructions for finding your way. A copy of your class schedule is included. Classes will begin officially in two days, but, as I am sure you have already seen, many of the students have already begun preparing for the semester and opening up classrooms and laboratories. Feel free to return here if you have any questions. Watauga Hall is out the front doors, to the right and behind this building. You can’t miss it. If you reach the [[infirmary|Next]], Winslow Hall, you have gone too far.
+
+&quot;Thank you for your help&quot;
+</tw-passagedata><tw-passagedata pid="6" name="Next" tags="" position="698,1015" size="100,100">Her mention of the infirmary gives you pause.
+
+Thank you.  I saw the poster about the Spanish Flu, and I wondered….”
+
+She interrupts with a smile. “Not to worry. Get plenty of rest, sunshine, proper nutrition, and, if you believe in that kind of thing, perhaps a vaccination, available at the infirmary, and you will be right as rain.”
+
+You smile weakly and turn to go to your new dorm. You did not see Alex, and he was supposed to arrive yesterday to get settled in and then meet you out front.  You realize you have not seen him yet and hope he is all right.
+
+You are tempted to go check out the [[classrooms and laboratories]], but think better of it and prceed to your dorms</tw-passagedata><tw-passagedata pid="7" name="Watauga Hall" tags="" position="709,1296" size="100,100">I enter the front door of Watauga and am greeted by an atmosphere of nervous excitement. Students are moving from one hallway to another, calling out to their friends, and introducing themselves to new faces. I approach the stairs to the upper floors and head up to my room.
+
+I unlock your door and push into the room with your suitcase and welcome packet. 
+
+I see Alex sitting on the bed, his head in his hands.  The bed is against a wall with a window centered on it.  [[My bed|Your bed]] is along the opposite wall with a bureau standing along side, waiting to be filled.
+
+&lt;img src=&quot;Images/Dorm room interior.jpg&quot; /&gt;
+</tw-passagedata><tw-passagedata pid="8" name="Your bed" tags="" position="712,1442" size="100,100">“Alex!”  I drop my cases next to the vacant bed and walk over to Alex’s side.
+
+“How are you?  Why didn’t you meet me in front of the building?”
+
+Alex doesn’t respond, but sits still on the bed in front of the window.  You approach and notice how pale he looks, and his face glistens with sweat. 
+
+“Alex?  Are you all right?  What is the matter?”
+
+“Hello, &lt;&lt;&quot;$name&quot; &quot;&quot;&gt;&gt;. I&#39;m sorry. I’m not really feeling all that well.  I feel a bit shaky and dizzy.  I have been extraordinarily tired today. I’ll be fine.  How was you trip here?&quot; He asked quickly, obviously wanting to change the subject. &quot;[[Was it eventful]]&quot; He smiled, a little weakly, and sat back against the wall, and drew his knee up to rest his arm.
+</tw-passagedata><tw-passagedata pid="9" name="Winslow Hall" tags="" position="573,2393" size="100,100">&lt;&lt;if $profession is &quot;Doctor&quot;&gt;&gt; You escort Alex to the infirmary, hoping that the nurses there will know how to care for him.
+
+As I enter the main floor, supporting Alex with my arm under his shoulders, my heart sinks.  The room is sull of the sick!  The nurses and doctors were rushing from one patient to another.  I call one over and give Alex over into her care.    I am now more determined than ever to find out what is wrong with Alex.  Is it this dreadful Spanish flu? Or something more mundane?  
+
+I am going to go to the [[library|Yarborough Court]] and find out
+
+
+&lt;&lt;else&gt;&gt;
+&lt;img src=&quot;Images/hospital cots.jpg&quot; /&gt;
+I rush into the infirmary and my heart sinks. I find Alex lying on a cot surrounded by what must be dozens of ill patients. The room is full of the sick!  The nurses and doctors were rushing from one patient to another.  I call one over and I recognize her as the neice of the University Preseident, Eliza Riddick.  Hello ma&#39;am.  I am looking for my freind, Alex.  
+
+&quot;He is over there.  He is not doing well. Sit with him and try to cheer him up.  Keeping one&#39;s spirits up is as important as anyting we can do.&quot;
+
+I&#39;ve collected some food and herbs from the garden.  May I give hime those?
+
+&quot;Of course.&quot;
+I walk over to Alex and find him only partially conscious.  I add the herbs to the broth and encourage him to drink it.  I wish I could talk to him all I&#39;d learned about proper nutrition, fresh air and exercise, but that will have to wait. 
+Only time will tell
+&lt;&lt;endif&gt;&gt;
+
+[[ |Bell Tower]]</tw-passagedata><tw-passagedata pid="10" name="Patterson Hall" tags="" position="622,1834" size="100,100">Jane Mc Kimmon moves toward you and begins talking with you about the [[Victory Garden]] and the plants grown there.  She also says that meals are made by Ella McGuire in the kitchens of Leazar Hall.  She would know how ot help as well with natural remedies.
+
+
+I really feel that Alex needs some fresh air and exercise to put him back on the road to health.  I decide to head over to the [[athletic field area -&gt;SAS Hall]] first and see what is offered.</tw-passagedata><tw-passagedata pid="11" name="Victory Garden" tags="" position="328,2315" size="100,100">The victory garden is located in the middle of what appears to be grazing fields.  Several cows graze peacefully in the field but a large section has been fenced off to plant a garden that supplies fresh fruit, vegetables and herbs to help fight the war effort by having students and staff make the university self-sustaining.
+
+Ms Mcguire indicated the herbs would be in the section closes to Patterson Hall and I go there first, hoping for the proper herbs to make Alex some tea and fortify the boroth Ms McGuire is making.
+
+I gather the herbs I need and head to the kitchens to pick up the broth.  I thank MS McGuire and take the new broth and the tea mix to the [[dorms]] to give to Alex</tw-passagedata><tw-passagedata pid="12" name="Brooks Hall" tags="" position="972,2061" size="100,100">
+I approach the Circulation desk and greet the man standing there.
+
+&quot;Hello, my name is &lt;&lt;&quot;$name&quot; &quot;&quot;&gt;&gt; and I waas wondering where to find some information.&quot;
+
+&quot;I can help you with that?  What are you looking for in particular?&quot;
+
+&lt;&lt;if $profession is &quot;Doctor&quot;&gt;&gt; 
+&quot;I wanted to look at information on diagonostic symptom of various illnesses. I would also need to see some recent journals on treatments and vaccines.&quot;
+
+&quot;Of course!  We have a wonderful library on current and modern treatments and diseases,  We are quite up to date on treatment and curatives.  They are in those [[stacks]] there,&quot; he pointed to the area on the Northern corner
+
+&quot;Are there clinical trials going on?  I heard something about that&quot;
+
+&quot;Why yes! The Spanish Flu is running rampant, killing thousands, if not millions, worldide.  A doctor in Boston has developed a vaccine for the influenza viurs, and they are conducting clinical trials here to test it on volunteers.&quot;
+
+&quot;How does one sign up to participate?&quot;
+
+&quot;They are still taking applicants until the end of the week&quot;
+
+&quot;My friend is ill, I am not sure with what.  Can he participate?&quot;  
+
+&quot;I believe so.  They are testing its efficacy on current patients.&quot;
+
+&quot;Thank you!  I will speak to him immediately&quot;
+
+&lt;&lt;else&gt;&gt;
+
+I&#39;d like some information on proper nutrrition and disease.&quot;
+
+&quot;That would be over in the stacks there,&quot; he said, pointing to the southern corner.  You can also go to [[Patterson Hall]] and speak to the agricultural extension workers there.  A Mrs. Jane McKimmon over there would be helpful.  She is a woman, but she has forgotten more than we will ever know about proper diet, nutrition and the like.&quot;
+
+I thank him and go to the stacks first but see quickly that I should speak with Ms. McKimmon and get her expertise.&quot;
+&lt;&lt;endif&gt;&gt;
+
+</tw-passagedata><tw-passagedata pid="13" name="Start" tags="" position="323,36" size="100,100">What is your name? &lt;&lt;textbox &quot;$name&quot; &quot;&quot;&gt;&gt;
+Welcome To NC State!
+
+</tw-passagedata><tw-passagedata pid="14" name="Was it eventful" tags="" position="727,1594" size="100,100">“ My trip went well. Stupendously uneventful, I’m afraid.”  You gaze at Alex again and notice him closing his eyes and grimacing, as if in pain.  You don&#39;t look all that great.  What can I do to help?”
+
+“Nothing.  Really.  Jacob arrived home last week and we’ve been staying up late the last week or so catching up.  He has so many amazing stories about France and the trenches.  He’s a real hero.  I am just a little tired”
+
+You nod and wait excitedly.  Jacob is Alex’s older brother who was sent home from the Western front due to illness.  He was kept in the hospital and then Camp Polk for several days before being given leave to visit home before returning to France. He was needed at the front as a trained field medic. Alex admired him greatly and was determined to follow in his footsteps. 
+
+&lt;&lt;if $profession is &quot;Farmer&quot;&gt;&gt; &quot;The best thing for you, then is some good old fashioned fresh air and susnshine.  I saw a poster earlier that said that even cures the flu!&quot;
+
+Alex laughs lightly and nods. “All right. Let’s be off.
+
+You smile and move toward the door  &quot;Where to? There&#39;s a courtyard  that looked pleasant or a line at the infirmary, Winslow Hall that we can investigate, or a Victory GArden, apprently, is somewhere on campus.&quot;
+
+Alex sighs, &quot; I&#39;m pretty tired.  How about the courtyard to start.&quot;
+
+&lt;&lt;else&gt;&gt; &quot;The best thing for you is to get to the infirmary right now!  You need a doctor&#39;s care.  I will walk you to [[Winslow Hall]] and then do some research see if I can figure out what&#39;s wrong.
+
+Alex smiled wanly. &quot;All right, doctor&quot; he tried to joke, &quot;I&#39;ll go, but you just go on.  You must want to look around. and I know you, you will want to go directly to the library.  It&#39;s over in Brooks Hall &lt;&lt;endif&gt;&gt;</tw-passagedata><tw-passagedata pid="15" name="SAS Hall" tags="" position="460,2009" size="100,100">The field is covered with cadets in uniform beginning traning exercises.  They all look fit and healthy; quite a feat with the illness spreading on campus.
+
+I looks around the field and see a football player warming up near by. It looks like William C. Lee.  He was a fullback and had returned from France only recenlty.  He had fought bravely and now returned to finish his degree and the ROTC program.  He wanted to stay in the army and train soldiers.  
+
+I approach him and he nods in my direction. &quot;Good morning sir,&quot; I greet him.  &quot;I wondered if you knew anything about the illness spreading through the students here,  My friend may be ill, and I am trying to treat him.&quot;
+
+&quot;Probably influenza.  I saw it on the front before I retuned home.  It is a nasty disease.  Physical fitness is the key.  Your body can fight the battle with the proper weapons. &quot; He nods towards the training students on the field.  &quot;Train the body and the mind.&quot;  
+
+&quot;Thank you, sir.  I will keep that in mind.&quot;  I wander off the field watching the sodiers.  William is right, but I decide that this would be best after Alex is well.  I really should go to the [[kitchens|Leazar Hall]] and get some good food.</tw-passagedata><tw-passagedata pid="16" name="you win" tags="Alex-Wins" position="525,158" size="100,100">“Unlikely,” I say grinning”  “I’m going to be a soldier!”
+
+ “I thought you were going to be a doctor, and heal the wounded.”
+
+“I can do both, of course,” I reply scornfully. “I will be an army medic.” I nod and smile proudly. His grandfather had told him stories of great battle medics in the Civil War and the army doctors who saved the lives of soldiers so they would defend their country. “What do you want to be?”
+
+ Alex thinks a minute and shrugged. 
+&lt;&lt;radio &quot;$profession&quot; &quot;Farmer&quot; checked&gt;&gt; Farmer?
+&lt;&lt;radiobutton &quot;$profession&quot; &quot;Engineer&quot; checked&gt;&gt; Engineer?
+&lt;&lt;radiobutton &quot;$profession&quot; &quot;Doctor&quot; checked&gt;&gt; Doctor?
+I guess.  I hate fighting, and you always win anyway.
+
+I shake my head mournfully.  “That’s boring. What will you do if someone gets sick way out in the middle of nowhere?”  
+
+“My grandda always said that doctors are quacks. I will be” Alex said more firmly, “and learn how to heal my family with herbs and stuff.  That’s what my gramma used to do.”
+
+“You’re going to be a quack?!” I howled in laughter
+
+“I am not!&quot; Alex yelled defiantly.  &quot;Come here. I&#39;ll get you!”
+
+
+[[The memory fades again-&gt;Welcome]]
+
+</tw-passagedata><tw-passagedata pid="17" name="Alex crows in triumph" tags="" position="852,151" size="100,100">“Not likely,” Alex said grinning”  “I’m going to be a soldier!”
+
+ “I thought you were going to be a doctor, and heal the wounded.”
+
+“I can do both, of course,” Alex replied scornfully. “I will be an army medic.” Alex nodded and smiled proudly. His grandfather had told him stories of great battle medics in the Civil War and the army doctors who saved the lives of soldiers so they would defend their country. “What do you want to be?”
+
+&lt;&lt;&quot;$name&quot; &quot;&quot;&gt;&gt; thought a minute and shrugged. 
+&lt;&lt;radiobutton &quot;$profession&quot; &quot;Farmer&quot; checked&gt;&gt; Farmer?
+&lt;&lt;radiobutton &quot;$profession&quot; &quot;Engineer&quot; checked&gt;&gt; Engineer?
+&lt;&lt;radiobutton &quot;$profession&quot; &quot;Doctor&quot; checked&gt;&gt; Doctor?
+ I guess.”
+
+“Alex shook his head mournfully.  “That’s boring. What will you do if someone gets sick way out in the middle of nowhere?”  
+
+“My grandda always said that doctors are quacks. I will be,” I say more firmly, “and learn how to heal my family with herbs and stuff.  That’s what my gramma used to do.”
+
+“You’re going to be a quack?!” Alex howled in laughter”
+
+“I am not!&quot; I say defiantly.  &quot;Come here. I’m going to shoot you with my rifle and run you through with my bayonet!”
+
+
+[[The memory fades again-&gt;Welcome]]
+
+</tw-passagedata><tw-passagedata pid="18" name="find him soon" tags="" position="696,381" size="100,100">I finsih reading the sign, hoping it will direct me to the right direction.
+
+&quot;The journey you are about to take is a long one but immensely rewarding for you, your family, and your community. As you think of the journey of a university education you smile and think back to the moment you decided to pursue this course, when you played with your childhood friend Alex and planned your future.&quot;
+
+I open my acceptance letter and glance once again at the map included and the assignment of the dorm for the next year. Watauga Hall! I smile in anticipation again, and head to the Main Building, [[Holladay Hall]] to gather the information I will need to get settled and meet with Alex.
+
+&lt;img src=&quot;Images/Map 1916.jpg&quot; /&gt;</tw-passagedata><tw-passagedata pid="19" name="Victory Gardens!" tags="" position="375,431" size="100,100">&lt;img src=&quot;Images/Victory Garden.jpg&quot; /&gt;</tw-passagedata><tw-passagedata pid="20" name="Battle the Flu" tags="" position="922,594" size="100,100">&lt;img src=&quot;Images/influenzA.jpg&quot; /&gt;</tw-passagedata><tw-passagedata pid="21" name="Agricultural Extension" tags="" position="947,419" size="100,100">&lt;img src=&quot;Agricultural Extnesion.jpg&quot; /&gt;</tw-passagedata><tw-passagedata pid="22" name="classrooms and laboratories" tags="" position="652,1155" size="200,100">I leave the building feeling a little overwhelmed, but excited too.  I still wanted to be &lt;&lt;$profession&quot;&gt;&gt;, and that journey had begun. I wander towards Watauga, enjoying the heavy air of a North Carolina summer day and the perfume of the flowers surrounding the building.
+
+I look towards [[Watauga Hall]] and decide to head straight there to drop off my bags.  
+
+&lt;&lt;if $profession is &quot;Farmer&quot;&gt;&gt; I look around the college buildings that sourround a garden plaza.  I note the infirmary close by but dismiss it for now. I begin making note of the greenhouses and tilled fields in the distance.  This is an agricultural schhol and your new home. I smile in delight.
+
+&lt;&lt;else&gt;&gt; I make note of the infirmary neighboring the dormitory as I pass by, making a mental note to stop in later and get my vaccines and physical. I&#39;d also like to talk to the doctos and nursese on staff.  It is never too early to begin learning the ropes. I smaile in satisfaction&lt;&lt;endif&gt;&gt;</tw-passagedata><tw-passagedata pid="23" name="Yarborough Court" tags="" position="879,1843" size="100,100">&quot;Mister!  Hey Mister!!&quot;
+
+I enter a large green courtyard with flowers and grass surrounding a central plaza.  It sits in the center of the few original building on campus.  I see a small girl of about 8 years old playing with jacks in tiled area.  She is waving at me and jumping excitedly.
+
+&quot;Mister! Hello mister!  My name is Mary.  May Yarborough.  I will go to college one day and be a famous person!  Maybe a scientist! Hey mister, do you want to [[play jacks]]?&quot;
+
+&lt;&lt;radiobutton &quot;$answer&quot; &quot;Yes&quot; checked&gt;&gt; Yes?
+&lt;&lt;radiobutton &quot;$answer&quot; &quot;No&quot; checked&gt;&gt; No?
+
+</tw-passagedata><tw-passagedata pid="24" name="stacks" tags="" position="908,2192" size="100,100">I head over to the stacks, wondering if I can find any published information on the clinical trials or vaccines in general.
+
+I spend some time readings and cross checking information.  There are so many differing opinions on what Alex may have wrong, not to mention the pros and cons of vaccines.  Some say they save lives and will extend human life.  Others claim they are deadly, far more trouble than they are worth. If it is Spanish Flu that was affecting Alex, it is extremely dangerous.  The flu is deadly in some cases, known for drastic and rapid changes in health and stability.  
+
+Alex&#39;s syptoms match the flu: dizziness, fever, sweats and exhaustion.
+
+One thing that occurs everywhere in the literature is that best to assist any treatments with proper nutrition.  I decide my next stop hsould be the kitchens in [[Leazar Hall]].  Perhaps I can make some restortive broth.</tw-passagedata><tw-passagedata pid="25" name="Leazar Hall" tags="" position="698,2219" size="100,100">I enter the Kitchens of Leazar Hall and see several women busily preparing food.  One steps forward with a smile and and air of care and concern.  
+&quot;How can I help, sir?&quot;
+It is Ella Mc Guire, making up some broth for her patients.  She is a legend among the students, calm and caring.  She acts like a mother to many of the men here so homescik for a mother&#39;s concern.
+I&#39;ve chatted with her before. She told me she was a freed slave who worked most of her young life on a plantations, but came to Raleigh when she was freed.  She is shocked at the Spanish Flu and has been helping as she could with nursing and care.
+
+&lt;&lt;if $profession is &quot;Farmer&quot;&gt;&gt; 
+I ask her about folk remedies she knows and she describes some recipes for tea that have willow bark for pain and fever.  I ask if she knows about the herbs and she directs me to the [[Victory Garden]] and I will find what I need.
+
+
+&lt;&lt;else&gt;&gt; I ask Ms. McGuire for some special broth that I can take to Alex.  It is important he regain some strength and his natural resistance before he can enter any trial.
+
+She is kind as she prepares the broth for me to take over.  She offers to put some herbs or other natural remdies, but I refuse. 
+&quot;Thank you, but no.  If he does enter the trial, I wouldn&#39;t want to interfere with that.&quot;
+I leave the kitchens and head to the [[infirmary|Winslow Hall 2]] 
+
+&lt;&lt;endif&gt;&gt;</tw-passagedata><tw-passagedata pid="26" name="Winslow Hall 2" tags="" position="733,2391" size="100,100">You enter the cot strewn first floor and wind your way through cots lined from one end to the other.  You frown as you look at there patients; who will help them?  You find Alex and deliver the broth Ms McGuire gave you.  He is only partially conscious but you are able to give him some broth.
+
+I wish I could discuss the clinical trials and the the advantages of various treatments but that will ahve to wait
+
+Only time will tell now.
+
+[[ |Bell Tower]]</tw-passagedata><tw-passagedata pid="27" name="dorms" tags="" position="396,2482" size="100,100">As I enter our room, I start to panic.  Alex is gone!  I grab another student and ask where Alex went.
+
+&quot;Alex took a turn for the worse and we took him to the infirmary.&quot;
+
+&quot;Thanks!&quot; I say as i dart back out and run over to the [[Winslow Hall]] </tw-passagedata><tw-passagedata pid="28" name="Bell Tower" tags="" position="987,2740" size="100,100">&lt;img src=&quot;Memorial Tower 2.jpg&quot; /&gt;</tw-passagedata><tw-passagedata pid="29" name="play jacks" tags="" position="1045,1889" size="100,100">&lt;&lt;if $answer is &quot;Yes&quot;&gt;&gt; I smile in amusement and cover a laugh with a small cough.  &quot;Of course poppet, but I can&#39;t play long.  I need to go to the library.&quot; I play jacks for a bit, and then sit up.
+&quot;Thanks for the game, Mary but I should get on.&quot;
+
+&quot;Ok, thanks mister.  Hey Mister!  don&#39;t go near the library. I hear there was a trial going on!  I wonder what he did wrong! Maybe murder!&quot;
+
+&quot;Trial?&quot;
+
+&quot;Yes, they said it was a trial where they shoot people! A pineapple trial&quot;
+ I stare at her bemused and then it strikes me &quot;A clinical trial?&quot;
+ 
+ &quot;Yeah that&#39;s it. They said they were gonna shoot people with stuff in the garden.&quot;
+ 
+ I cough again to smother a laugh and nod seriously. &quot;A clinical trial.  I will be careful.  Thanks, Mary&quot;
+
+&lt;&lt;else&gt;&gt; &quot;Not now little girl.  I am very busy.  Maybe later&quot;
+
+&quot;Ok, mister,&quot; she says looking dejected.  &quot;But be carefule near the library!&quot;  she skips off before you can question her furhter.&lt;&lt;endif&gt;&gt;
+
+You proceed to the [[Library|Brooks Hall]]
+
+</tw-passagedata><tw-passagedata pid="30" name="Begin" tags="" position="525,308" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.

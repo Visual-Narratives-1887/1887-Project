@@ -3,12 +3,520 @@
     "result": {
         "passages": [
             {
-                "Name": "Untitled Passage",
+                "Name": "Welcome",
                 "Pid": "1",
                 "Tags": "",
                 "Tokens": [
                     {
-                        "text": "<img src=\"Images/Holladay Hall.jpg\" />",
+                        "text": "I walk up to the main campus carrying my cases, ready to begin my year at North Carolina State College of Agriculture and Mechanic Arts. As I step onto the campus and you see a small sign in front of the a large building. A sense of excitement and anticipation fills me as I read:",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Hello student! We will be providing you a more formal welcome with an information packet and map as you proceed to the administrative building. This building was originally constructed in 1889 and referred to as the Main building but wwas recently renamed Holladay Hall",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I smile at the memory and the long summers spent in fake wars that always ended in elaborate and dramatic death scenes. Now we both were here, sharing a dorm room and forging our paths that we decided so early during those hot summer days. ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I need to ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"find him soon\",\"find him soon\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"find him soon\",\"find him soon\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "find him soon",
+                                "text": "\"find him soon\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "find him soon",
+                                "text": "\"find him soon\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ", as we will be sharing a room this semester.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "Holladay Hall",
+                "Pid": "2",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "As I enter the main entry for Holladay Hall and see a hive of activity.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "New and returning students are milling around the stairway leading to the offices and rooms above. Lights hanging above wood parquet flooring illuminate the grand hallway. The walls are papered with notices and posters outlining progress of student organizations, graduating classes, and perhaps most importantly, the war effort.  Several catch my eye:",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Victory Gardens!\",\"Victory Gardens!\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Victory Gardens!\",\"Victory Gardens!\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Victory Gardens!",
+                                "text": "\"Victory Gardens!\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Victory Gardens!",
+                                "text": "\"Victory Gardens!\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "  Support the War Effort!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Battle the Flu\",\"Battle the Flu\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Battle the Flu\",\"Battle the Flu\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Battle the Flu",
+                                "text": "\"Battle the Flu\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Battle the Flu",
+                                "text": "\"Battle the Flu\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " Kaiser Bill's ally",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Agricultural Extension\",\"Agricultural Extension\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Agricultural Extension\",\"Agricultural Extension\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Agricultural Extension",
+                                "text": "\"Agricultural Extension\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Agricultural Extension",
+                                "text": "\"Agricultural Extension\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " notices",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I sigh and wonder when this dreadful war will be over. America’s involvement had begun only recently, but it resulted in the fantasies of my youth coming true, at least in part, for good and ill. We, Alex and I will both be soldiers in training, cadets, along with most of the other students on campus.  I am still not thrilled at the propspect, but I understand the need.  Pacisfism didn't work to stop the German machine.  Maybe innovation can.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " You turn down a ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"long hallway\",\"long hallway\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"long hallway\",\"long hallway\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "long hallway",
+                                "text": "\"long hallway\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "long hallway",
+                                "text": "\"long hallway\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "childhood",
+                "Pid": "3",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "“Alex! I’ve got you!  Bang Bang!”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " I grin, \"No! I've got you!  I pulled out my pistol first!\"  Bang Bang!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“Arrrrrrg! “ Alex falls to the ground theatrically and you laugh delightedly. \"",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"you win\",\"you win\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"you win\",\"you win\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "you win",
+                                "text": "\"you win\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "you win",
+                                "text": "\"you win\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " this time, but I will get my revenge the next battle we have!\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "**",
+                        "type": "text"
+                    },
+                    {
+                        "text": "OR",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Alex neatly ducks the shot and points his rifle at you. \"Bang Bang!\" I stop in my tracks and clutch my chest. \"Arrrrrrg.\"  I fall dramatically to the ground and start convulsing grotesquely.  ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Alex crows in triumph\",\"Alex crows in triumph\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Alex crows in triumph\",\"Alex crows in triumph\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Alex crows in triumph",
+                                "text": "\"Alex crows in triumph\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Alex crows in triumph",
+                                "text": "\"Alex crows in triumph\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " as he laughs. \"I win!  I win!\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I smile and stop my death spasms and sit up. \"Maybe you won this time, but not for long!\"",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "long hallway",
+                "Pid": "4",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "One poster in particular makes you pause: a nurse has her face covered with a mask and warns the viewer the ways in which the flu can be avoided. The rumors of a deadly contagion, the Spanish Flu, reaching the shores of America are frightening. One warning makes you feel better, get fresh air and sunshine.  You are a farmer, no danger there.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Will the flu hit Raleigh?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Another poster catches you eye as you pass by: A picture of a victory garden",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You smile smugly; gardens not only help health and well-being, but help the war effort too.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You turn toward the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"reception\",\"reception\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"reception\",\"reception\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "reception",
+                                "text": "\"reception\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "reception",
+                                "text": "\"reception\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " desk at the end of the hallway",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "reception",
+                "Pid": "5",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You approach the secretary at the admissions desk and greet her.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You notice yet another poster on the wall next to reception ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<img src=\"Images/Vaccine poster.jpg\" />",
                         "type": "tag"
                     },
                     {
@@ -16,7 +524,19 @@
                         "type": "br"
                     },
                     {
-                        "text": "Hello New student!  We welcome you to the administrative building.  This building was orginally constructed in 1889 and referred to as the Main building but would be named Holladay Hall. ",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“Hello, madam. My name is ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "<<\"$name\" \"\">>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " and I need to check in and find my dorm room.",
                         "type": "text"
                     },
                     {
@@ -28,21 +548,41 @@
                         "type": "br"
                     },
                     {
-                        "text": "You can now go to your assigned dorm building, ",
+                        "text": "She looks up and smiles politely. She rifles through a set of files on her desk and selects one to hand to you.",
                         "type": "text"
                     },
                     {
-                        "innerText": "link-goto:\"Watauga Hall\",\"Watauga Hall\"",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“Good afternoon, ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "<<\"$name\" \"\">>",
+                        "type": "error"
+                    },
+                    {
+                        "text": ", and welcome. Here is an information packet with you new map, assigned room, a key for the room, and instructions for finding your way. A copy of your class schedule is included. Classes will begin officially in two days, but, as I am sure you have already seen, many of the students have already begun preparing for the semester and opening up classrooms and laboratories. Feel free to return here if you have any questions. Watauga Hall is out the front doors, to the right and behind this building. You can’t miss it. If you reach the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"infirmary\",\"Next\"",
                         "name": "linkgoto",
-                        "text": "(link-goto:\"Watauga Hall\",\"Watauga Hall\")",
+                        "text": "(link-goto:\"infirmary\",\"Next\")",
                         "tokens": [
                             {
                                 "text": "link-goto:",
                                 "type": "macroName"
                             },
                             {
-                                "innerText": "Watauga Hall",
-                                "text": "\"Watauga Hall\"",
+                                "innerText": "infirmary",
+                                "text": "\"infirmary\"",
                                 "type": "string"
                             },
                             {
@@ -50,37 +590,104 @@
                                 "type": "comma"
                             },
                             {
-                                "innerText": "Watauga Hall",
-                                "text": "\"Watauga Hall\"",
+                                "innerText": "Next",
+                                "text": "\"Next\"",
                                 "type": "string"
                             }
                         ],
                         "type": "macro"
                     },
                     {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "NC State was established under the auspices of the federal Morrill Act of 1862, which allowed the U.S. government to donate federally owned land to the states for the purpose of establishing colleges that would teach “agriculture and the mechanic arts.” The brand-new school held its first classes in the fall of 1889 with 72 students, six faculty members and one building, Hollday Hall. THe next stop highlights the development of the university in terms of residence halls and education ",
+                        "text": ", Winslow Hall, you have gone too far.",
                         "type": "text"
                     },
                     {
-                        "innerText": "link-goto:\"Watauga Hall\",\"Watauga Hall\"",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Thank you for your help\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "Next",
+                "Pid": "6",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Her mention of the infirmary gives you pause.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Thank you.  I saw the poster about the Spanish Flu, and I wondered….”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "She interrupts with a smile. “Not to worry. Get plenty of rest, sunshine, proper nutrition, and, if you believe in that kind of thing, perhaps a vaccination, available at the infirmary, and you will be right as rain.”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You smile weakly and turn to go to your new dorm. You did not see Alex, and he was supposed to arrive yesterday to get settled in and then meet you out front.  You realize you have not seen him yet and hope he is all right.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You are tempted to go check out the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"classrooms and laboratories\",\"classrooms and laboratories\"",
                         "name": "linkgoto",
-                        "text": "(link-goto:\"Watauga Hall\",\"Watauga Hall\")",
+                        "text": "(link-goto:\"classrooms and laboratories\",\"classrooms and laboratories\")",
                         "tokens": [
                             {
                                 "text": "link-goto:",
                                 "type": "macroName"
                             },
                             {
-                                "innerText": "Watauga Hall",
-                                "text": "\"Watauga Hall\"",
+                                "innerText": "classrooms and laboratories",
+                                "text": "\"classrooms and laboratories\"",
                                 "type": "string"
                             },
                             {
@@ -88,38 +695,26 @@
                                 "type": "comma"
                             },
                             {
-                                "innerText": "Watauga Hall",
-                                "text": "\"Watauga Hall\"",
+                                "innerText": "classrooms and laboratories",
+                                "text": "\"classrooms and laboratories\"",
                                 "type": "string"
                             }
                         ],
                         "type": "macro"
                     },
                     {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "When North Carolina State University (NCSU) was founded in 1887, the school embodied ideals that were rapidly transforming the field of higher education. Chief among them was the belief that colleges should not be reserved for a select few and that the children of farmers, mechanics and other workers should have access to the opportunities and benefits of higher education. A new generation of progressive thinkers founded the college, known then as the North Carolina College of Agriculture and Mechanic Arts. ",
+                        "text": ", but think better of it and prceed to your dorms",
                         "type": "text"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
                     }
                 ]
             },
             {
                 "Name": "Watauga Hall",
-                "Pid": "2",
+                "Pid": "7",
                 "Tags": "",
                 "Tokens": [
                     {
-                        "text": "This five-story Watauga Hall was built in 1896.  This structure you see today is actually the second version of this building. The first was destroyed by fire in 1901, during Thanksgiving weekend. With the help of students who kept it wet enough to save it, nearby Holladay Hall survived the fire, despite the fact that the heat could be felt as far as Hillsborough Street. ",
+                        "text": "I enter the front door of Watauga and am greeted by an atmosphere of nervous excitement. Students are moving from one hallway to another, calling out to their friends, and introducing themselves to new faces. I approach the stairs to the upper floors and head up to my room.",
                         "type": "text"
                     },
                     {
@@ -127,7 +722,11 @@
                         "type": "br"
                     },
                     {
-                        "text": "\t",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I unlock your door and push into the room with your suitcase and welcome packet. ",
                         "type": "text"
                     },
                     {
@@ -135,35 +734,68 @@
                         "type": "br"
                     },
                     {
-                        "text": "\t",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I see Alex sitting on the bed, his head in his hands.  The bed is against a wall with a window centered on it.  ",
                         "type": "text"
                     },
                     {
-                        "text": "<img src=\"Images/Watauga Hall.jpg\" />",
+                        "innerText": "link-goto:\"My bed\",\"Your bed\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"My bed\",\"Your bed\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "My bed",
+                                "text": "\"My bed\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Your bed",
+                                "text": "\"Your bed\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " is along the opposite wall with a bureau standing along side, waiting to be filled.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<img src=\"Images/Dorm room interior.jpg\" />",
                         "type": "tag"
                     },
                     {
                         "text": "\n",
                         "type": "br"
-                    },
+                    }
+                ]
+            },
+            {
+                "Name": "Your bed",
+                "Pid": "8",
+                "Tags": "",
+                "Tokens": [
                     {
-                        "text": "\t",
-                        "type": "text"
-                    },
-                    {
-                        "text": "<img src=\"Images/watauga Hall renovated.jpg\" />",
-                        "type": "tag"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\t",
+                        "text": "“Alex!”  I drop my cases next to the vacant bed and walk over to Alex’s side.",
                         "type": "text"
                     },
                     {
@@ -171,7 +803,11 @@
                         "type": "br"
                     },
                     {
-                        "text": "\tYou walk further into the building and find your room and your roommate,   Alexander Holladay Pickell, grandson of the innagural president of NC State, Alexander Haolladay, and the person for whom the Main Administrative building was named.",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“How are you?  Why didn’t you meet me in front of the building?”",
                         "type": "text"
                     },
                     {
@@ -179,7 +815,11 @@
                         "type": "br"
                     },
                     {
-                        "text": "\t",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Alex doesn’t respond, but sits still on the bed in front of the window.  You approach and notice how pale he looks, and his face glistens with sweat. ",
                         "type": "text"
                     },
                     {
@@ -187,7 +827,11 @@
                         "type": "br"
                     },
                     {
-                        "text": "You place your belining along one bed and turn to find your roommate and check in.\t",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“Alex?  Are you all right?  What is the matter?”",
                         "type": "text"
                     },
                     {
@@ -195,45 +839,33 @@
                         "type": "br"
                     },
                     {
-                        "text": "\tAlex is very sick!  He appears to be fevered and pale.  He is incoherant and appears to be in pain.  You begin thinking quickly: \"How do I help him?\"",
-                        "type": "text"
-                    },
-                    {
                         "text": "\n",
                         "type": "br"
                     },
                     {
-                        "text": "\t",
+                        "text": "“Hello, ",
                         "type": "text"
                     },
                     {
-                        "text": "\n",
-                        "type": "br"
+                        "text": "<<\"$name\" \"\">>",
+                        "type": "error"
                     },
                     {
-                        "text": "\tYou seem to have two choices. There is no way to tell what is better, but you must make the decision quickly.  Alex is sick and needs help.  You can go:",
+                        "text": ". I'm sorry. I’m not really feeling all that well.  I feel a bit shaky and dizzy.  I have been extraordinarily tired today. I’ll be fine.  How was you trip here?\" He asked quickly, obviously wanting to change the subject. \"",
                         "type": "text"
                     },
                     {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\t1) ",
-                        "type": "text"
-                    },
-                    {
-                        "innerText": "link-goto:\"Winslow Hall\",\"Winslow Hall\"",
+                        "innerText": "link-goto:\"Was it eventful\",\"Was it eventful\"",
                         "name": "linkgoto",
-                        "text": "(link-goto:\"Winslow Hall\",\"Winslow Hall\")",
+                        "text": "(link-goto:\"Was it eventful\",\"Was it eventful\")",
                         "tokens": [
                             {
                                 "text": "link-goto:",
                                 "type": "macroName"
                             },
                             {
-                                "innerText": "Winslow Hall",
-                                "text": "\"Winslow Hall\"",
+                                "innerText": "Was it eventful",
+                                "text": "\"Was it eventful\"",
                                 "type": "string"
                             },
                             {
@@ -241,142 +873,34 @@
                                 "type": "comma"
                             },
                             {
-                                "innerText": "Winslow Hall",
-                                "text": "\"Winslow Hall\"",
+                                "innerText": "Was it eventful",
+                                "text": "\"Was it eventful\"",
                                 "type": "string"
                             }
                         ],
                         "type": "macro"
                     },
                     {
-                        "text": " and the nirses and mediacl staff there can provide him with a new experimnetal vaccine that might help him, but may also be dangerous.",
+                        "text": "\" He smiled, a little weakly, and sat back against the wall, and drew his knee up to rest his arm.",
                         "type": "text"
                     },
                     {
                         "text": "\n",
                         "type": "br"
-                    },
-                    {
-                        "text": "\t2) ",
-                        "type": "text"
-                    },
-                    {
-                        "innerText": "link-goto:\"SAS Hall\",\"SAS Hall\"",
-                        "name": "linkgoto",
-                        "text": "(link-goto:\"SAS Hall\",\"SAS Hall\")",
-                        "tokens": [
-                            {
-                                "text": "link-goto:",
-                                "type": "macroName"
-                            },
-                            {
-                                "innerText": "SAS Hall",
-                                "text": "\"SAS Hall\"",
-                                "type": "string"
-                            },
-                            {
-                                "text": ",",
-                                "type": "comma"
-                            },
-                            {
-                                "innerText": "SAS Hall",
-                                "text": "\"SAS Hall\"",
-                                "type": "string"
-                            }
-                        ],
-                        "type": "macro"
-                    },
-                    {
-                        "text": " where holistic natural medicine is explored as well as physical fitness, proper nutrition and cooking techniques are explored.  This path is safer but perhaps too long term to save your roommate. ",
-                        "type": "text"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\t",
-                        "type": "text"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\t",
-                        "type": "text"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\tFUN FACTS:",
-                        "type": "text"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\t\tThe site was built in a restrained Romanesque Revival style, and became the site of numerous pranks. According to one story, a cannon that stood in front of the ",
-                        "type": "text"
-                    },
-                    {
-                        "innerText": "link-goto:\"1911 building\",\"1911 building\"",
-                        "name": "linkgoto",
-                        "text": "(link-goto:\"1911 building\",\"1911 building\")",
-                        "tokens": [
-                            {
-                                "text": "link-goto:",
-                                "type": "macroName"
-                            },
-                            {
-                                "innerText": "1911 building",
-                                "text": "\"1911 building\"",
-                                "type": "string"
-                            },
-                            {
-                                "text": ",",
-                                "type": "comma"
-                            },
-                            {
-                                "innerText": "1911 building",
-                                "text": "\"1911 building\"",
-                                "type": "string"
-                            }
-                        ],
-                        "type": "macro"
-                    },
-                    {
-                        "text": ", located at the end of the grassy Court of the Carolinas, was found one morning reassembled on Watauga's roof. On another occasion, a mule had been led up several flights of stairs to the top floor. One story is that the mule had to be blindfolded to be led down; another is that they had to lower the mule by sling and rope from an upper story window. ",
-                        "type": "text"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\t\t\t",
-                        "type": "text"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\tThe pranks are examples of the friendly but stiff competition that still exists between the engineering and agriculture students of the University's main two departments. ",
-                        "type": "text"
                     }
                 ]
             },
             {
                 "Name": "Winslow Hall",
-                "Pid": "3",
+                "Pid": "9",
                 "Tags": "",
                 "Tokens": [
                     {
-                        "text": "Winslow Hall was first used as the student Health center.  This was also an infirmary for ill students.  Vaccines and innoculations were administered here and its would have been the location for clinical trials for influenza vaccines.",
+                        "text": "<<if $profession is \"Doctor\">>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " You escort Alex to the infirmary, hoping that the nurses there will know how to care for him.",
                         "type": "text"
                     },
                     {
@@ -388,21 +912,33 @@
                         "type": "br"
                     },
                     {
-                        "text": "For further information you can go to ",
+                        "text": "As I enter the main floor, supporting Alex with my arm under his shoulders, my heart sinks.  The room is sull of the sick!  The nurses and doctors were rushing from one patient to another.  I call one over and give Alex over into her care.    I am now more determined than ever to find out what is wrong with Alex.  Is it this dreadful Spanish flu? Or something more mundane?  ",
                         "type": "text"
                     },
                     {
-                        "innerText": "link-goto:\"Brooks Hall\",\"Brooks Hall\"",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I am going to go to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"library\",\"Yarborough Court\"",
                         "name": "linkgoto",
-                        "text": "(link-goto:\"Brooks Hall\",\"Brooks Hall\")",
+                        "text": "(link-goto:\"library\",\"Yarborough Court\")",
                         "tokens": [
                             {
                                 "text": "link-goto:",
                                 "type": "macroName"
                             },
                             {
-                                "innerText": "Brooks Hall",
-                                "text": "\"Brooks Hall\"",
+                                "innerText": "library",
+                                "text": "\"library\"",
                                 "type": "string"
                             },
                             {
@@ -410,15 +946,15 @@
                                 "type": "comma"
                             },
                             {
-                                "innerText": "Brooks Hall",
-                                "text": "\"Brooks Hall\"",
+                                "innerText": "Yarborough Court",
+                                "text": "\"Yarborough Court\"",
                                 "type": "string"
                             }
                         ],
                         "type": "macro"
                     },
                     {
-                        "text": ", the location of the original library for the campus.",
+                        "text": " and find out",
                         "type": "text"
                     },
                     {
@@ -430,21 +966,109 @@
                         "type": "br"
                     },
                     {
-                        "text": " While walking towars the library, you can also stop by ",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<else>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<img src=\"Images/hospital cots.jpg\" />",
+                        "type": "tag"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I rush into the infirmary and my heart sinks. I find Alex lying on a cot surrounded by what must be dozens of ill patients. The room is full of the sick!  The nurses and doctors were rushing from one patient to another.  I call one over and I recognize her as the neice of the University Preseident, Eliza Riddick.  Hello ma'am.  I am looking for my freind, Alex.  ",
                         "type": "text"
                     },
                     {
-                        "innerText": "link-goto:\"Mary Yarborough Court\",\"Mary Yarborough Court\"",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"He is over there.  He is not doing well. Sit with him and try to cheer him up.  Keeping one's spirits up is as important as anyting we can do.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I've collected some food and herbs from the garden.  May I give hime those?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Of course.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I walk over to Alex and find him only partially conscious.  I add the herbs to the broth and encourage him to drink it.  I wish I could talk to him all I'd learned about proper nutrition, fresh air and exercise, but that will have to wait. ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Only time will tell",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<endif>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\" \",\"Bell Tower\"",
                         "name": "linkgoto",
-                        "text": "(link-goto:\"Mary Yarborough Court\",\"Mary Yarborough Court\")",
+                        "text": "(link-goto:\" \",\"Bell Tower\")",
                         "tokens": [
                             {
                                 "text": "link-goto:",
                                 "type": "macroName"
                             },
                             {
-                                "innerText": "Mary Yarborough Court",
-                                "text": "\"Mary Yarborough Court\"",
+                                "innerText": " ",
+                                "text": "\" \"",
                                 "type": "string"
                             },
                             {
@@ -452,8 +1076,8 @@
                                 "type": "comma"
                             },
                             {
-                                "innerText": "Mary Yarborough Court",
-                                "text": "\"Mary Yarborough Court\"",
+                                "innerText": "Bell Tower",
+                                "text": "\"Bell Tower\"",
                                 "type": "string"
                             }
                         ],
@@ -462,60 +1086,42 @@
                 ]
             },
             {
-                "Name": "SAS Hall",
-                "Pid": "4",
+                "Name": "Patterson Hall",
+                "Pid": "10",
                 "Tags": "",
                 "Tokens": [
                     {
-                        "text": "The building you see in front of you is very new.  It was built to house Mathematics and statistics in 2009. The 119,000 square foot building houses state-of-the-art classrooms, computer labs, tutorial centers and meeting and study space for students and faculty from NC State's mathematics and statistics departments.",
+                        "text": "Jane Mc Kimmon moves toward you and begins talking with you about the ",
                         "type": "text"
                     },
                     {
-                        "text": "\n",
-                        "type": "br"
+                        "innerText": "link-goto:\"Victory Garden\",\"Victory Garden\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Victory Garden\",\"Victory Garden\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Victory Garden",
+                                "text": "\"Victory Garden\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Victory Garden",
+                                "text": "\"Victory Garden\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
                     },
                     {
-                        "text": "<img src=\"Images/Riddick Field ROTC.jpg\" />",
-                        "type": "tag"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "<img src=\"Images/Campus Map.jpg\" />",
-                        "type": "tag"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "The land beneath the building was once the first athletic field on campus. It ws comprised of both a baseball and football fields.  It remained in that location until another field was constructed in 1966.",
-                        "type": "text"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "<img src=\"Images/Technician article.png\" />",
-                        "type": "tag"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "\n",
-                        "type": "br"
-                    },
-                    {
-                        "text": "This was of the loci for the adminsitration's push to train students in body as well as mind.  The progressive era of the early twentieth cenutry began a more indepth investiagation of all aspects of health and wellness, from medicine to nutrition to rpoper storage, canning and food preservation and cooking.",
+                        "text": " and the plants grown there.  She also says that meals are made by Ella McGuire in the kitchens of Leazar Hall.  She would know how ot help as well with natural remedies.",
                         "type": "text"
                     },
                     {
@@ -527,7 +1133,339 @@
                         "type": "br"
                     },
                     {
-                        "text": "The best way to proceed is to understand nutrition and food, wel will proceed to ",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I really feel that Alex needs some fresh air and exercise to put him back on the road to health.  I decide to head over to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"athletic field area \",\"SAS Hall\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"athletic field area \",\"SAS Hall\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "athletic field area ",
+                                "text": "\"athletic field area \"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "SAS Hall",
+                                "text": "\"SAS Hall\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " first and see what is offered.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Victory Garden",
+                "Pid": "11",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "The victory garden is located in the middle of what appears to be grazing fields.  Several cows graze peacefully in the field but a large section has been fenced off to plant a garden that supplies fresh fruit, vegetables and herbs to help fight the war effort by having students and staff make the university self-sustaining.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Ms Mcguire indicated the herbs would be in the section closes to Patterson Hall and I go there first, hoping for the proper herbs to make Alex some tea and fortify the boroth Ms McGuire is making.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I gather the herbs I need and head to the kitchens to pick up the broth.  I thank MS McGuire and take the new broth and the tea mix to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"dorms\",\"dorms\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"dorms\",\"dorms\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "dorms",
+                                "text": "\"dorms\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "dorms",
+                                "text": "\"dorms\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " to give to Alex",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Brooks Hall",
+                "Pid": "12",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I approach the Circulation desk and greet the man standing there.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Hello, my name is ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "<<\"$name\" \"\">>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " and I waas wondering where to find some information.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"I can help you with that?  What are you looking for in particular?\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<if $profession is \"Doctor\">>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"I wanted to look at information on diagonostic symptom of various illnesses. I would also need to see some recent journals on treatments and vaccines.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Of course!  We have a wonderful library on current and modern treatments and diseases,  We are quite up to date on treatment and curatives.  They are in those ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"stacks\",\"stacks\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"stacks\",\"stacks\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "stacks",
+                                "text": "\"stacks\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "stacks",
+                                "text": "\"stacks\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " there,\" he pointed to the area on the Northern corner",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Are there clinical trials going on?  I heard something about that\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Why yes! The Spanish Flu is running rampant, killing thousands, if not millions, worldide.  A doctor in Boston has developed a vaccine for the influenza viurs, and they are conducting clinical trials here to test it on volunteers.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"How does one sign up to participate?\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"They are still taking applicants until the end of the week\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"My friend is ill, I am not sure with what.  Can he participate?\"  ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"I believe so.  They are testing its efficacy on current patients.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Thank you!  I will speak to him immediately\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<else>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I'd like some information on proper nutrrition and disease.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"That would be over in the stacks there,\" he said, pointing to the southern corner.  You can also go to ",
                         "type": "text"
                     },
                     {
@@ -557,7 +1495,7 @@
                         "type": "macro"
                     },
                     {
-                        "text": ", the location of the hub fot the Agricultural Extension Program",
+                        "text": " and speak to the agricultural extension workers there.  A Mrs. Jane McKimmon over there would be helpful.  She is a woman, but she has forgotten more than we will ever know about proper diet, nutrition and the like.\"",
                         "type": "text"
                     },
                     {
@@ -565,89 +1503,69 @@
                         "type": "br"
                     },
                     {
-                        "text": "On the way, make sure to look for the ",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I thank him and go to the stacks first but see quickly that I should speak with Ms. McKimmon and get her expertise.\"",
                         "type": "text"
                     },
                     {
-                        "innerText": "link-goto:\"Victory Garden\",\"Victory Garden\"",
-                        "name": "linkgoto",
-                        "text": "(link-goto:\"Victory Garden\",\"Victory Garden\")",
-                        "tokens": [
-                            {
-                                "text": "link-goto:",
-                                "type": "macroName"
-                            },
-                            {
-                                "innerText": "Victory Garden",
-                                "text": "\"Victory Garden\"",
-                                "type": "string"
-                            },
-                            {
-                                "text": ",",
-                                "type": "comma"
-                            },
-                            {
-                                "innerText": "Victory Garden",
-                                "text": "\"Victory Garden\"",
-                                "type": "string"
-                            }
-                        ],
-                        "type": "macro"
+                        "text": "\n",
+                        "type": "br"
                     },
                     {
-                        "text": " on the green.",
-                        "type": "text"
+                        "text": "<<endif>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
                     }
                 ]
             },
             {
-                "Name": "1911 building",
-                "Pid": "5",
+                "Name": "Start",
+                "Pid": "13",
                 "Tags": "",
                 "Tokens": [
                     {
-                        "text": "Double-click this passage to edit it.",
+                        "text": "What is your name? ",
                         "type": "text"
+                    },
+                    {
+                        "text": "<<textbox \"$name\" \"\">>",
+                        "type": "error"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Welcome To NC State!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
                     }
                 ]
             },
             {
-                "Name": "Patterson Hall",
-                "Pid": "6",
+                "Name": "Was it eventful",
+                "Pid": "14",
                 "Tags": "",
                 "Tokens": [
                     {
-                        "text": "Go back to the Dorm ",
-                        "type": "text"
-                    },
-                    {
-                        "innerText": "link-goto:\"Watauga Hall\",\"Watauga Hall\"",
-                        "name": "linkgoto",
-                        "text": "(link-goto:\"Watauga Hall\",\"Watauga Hall\")",
-                        "tokens": [
-                            {
-                                "text": "link-goto:",
-                                "type": "macroName"
-                            },
-                            {
-                                "innerText": "Watauga Hall",
-                                "text": "\"Watauga Hall\"",
-                                "type": "string"
-                            },
-                            {
-                                "text": ",",
-                                "type": "comma"
-                            },
-                            {
-                                "innerText": "Watauga Hall",
-                                "text": "\"Watauga Hall\"",
-                                "type": "string"
-                            }
-                        ],
-                        "type": "macro"
-                    },
-                    {
-                        "text": " and care for Alex with your new found knwledge.  ",
+                        "text": "“ My trip went well. Stupendously uneventful, I’m afraid.”  You gaze at Alex again and notice him closing his eyes and grimacing, as if in pain.  You don't look all that great.  What can I do to help?”",
                         "type": "text"
                     },
                     {
@@ -659,48 +1577,7 @@
                         "type": "br"
                     },
                     {
-                        "text": "The illness is over, proceed to the ",
-                        "type": "text"
-                    },
-                    {
-                        "innerText": "link-goto:\"Memorial Bell Tower\",\"Memorial Bell Tower\"",
-                        "name": "linkgoto",
-                        "text": "(link-goto:\"Memorial Bell Tower\",\"Memorial Bell Tower\")",
-                        "tokens": [
-                            {
-                                "text": "link-goto:",
-                                "type": "macroName"
-                            },
-                            {
-                                "innerText": "Memorial Bell Tower",
-                                "text": "\"Memorial Bell Tower\"",
-                                "type": "string"
-                            },
-                            {
-                                "text": ",",
-                                "type": "comma"
-                            },
-                            {
-                                "innerText": "Memorial Bell Tower",
-                                "text": "\"Memorial Bell Tower\"",
-                                "type": "string"
-                            }
-                        ],
-                        "type": "macro"
-                    },
-                    {
-                        "text": " to think about all that has happened",
-                        "type": "text"
-                    }
-                ]
-            },
-            {
-                "Name": "Brooks Hall",
-                "Pid": "7",
-                "Tags": "",
-                "Tokens": [
-                    {
-                        "text": "Brooks hall was the first location of the campus library",
+                        "text": "“Nothing.  Really.  Jacob arrived home last week and we’ve been staying up late the last week or so catching up.  He has so many amazing stories about France and the trenches.  He’s a real hero.  I am just a little tired”",
                         "type": "text"
                     },
                     {
@@ -712,37 +1589,7 @@
                         "type": "br"
                     },
                     {
-                        "text": "It seems like even vaccines may need help by maintain proper nutrition.  Look for the ",
-                        "type": "text"
-                    },
-                    {
-                        "innerText": "link-goto:\"Victory Garden\",\"Victory Garden\"",
-                        "name": "linkgoto",
-                        "text": "(link-goto:\"Victory Garden\",\"Victory Garden\")",
-                        "tokens": [
-                            {
-                                "text": "link-goto:",
-                                "type": "macroName"
-                            },
-                            {
-                                "innerText": "Victory Garden",
-                                "text": "\"Victory Garden\"",
-                                "type": "string"
-                            },
-                            {
-                                "text": ",",
-                                "type": "comma"
-                            },
-                            {
-                                "innerText": "Victory Garden",
-                                "text": "\"Victory Garden\"",
-                                "type": "string"
-                            }
-                        ],
-                        "type": "macro"
-                    },
-                    {
-                        "text": " in the fields nearby.",
+                        "text": "You nod and wait excitedly.  Jacob is Alex’s older brother who was sent home from the Western front due to illness.  He was kept in the hospital and then Camp Polk for several days before being given leave to visit home before returning to France. He was needed at the front as a trained field medic. Alex admired him greatly and was determined to follow in his footsteps. ",
                         "type": "text"
                     },
                     {
@@ -754,37 +1601,11 @@
                         "type": "br"
                     },
                     {
-                        "text": "Alex has passed away, you go to the ",
-                        "type": "text"
+                        "text": "<<if $profession is \"Farmer\">>",
+                        "type": "error"
                     },
                     {
-                        "innerText": "link-goto:\"Memorial Bell Tower\",\"Memorial Bell Tower\"",
-                        "name": "linkgoto",
-                        "text": "(link-goto:\"Memorial Bell Tower\",\"Memorial Bell Tower\")",
-                        "tokens": [
-                            {
-                                "text": "link-goto:",
-                                "type": "macroName"
-                            },
-                            {
-                                "innerText": "Memorial Bell Tower",
-                                "text": "\"Memorial Bell Tower\"",
-                                "type": "string"
-                            },
-                            {
-                                "text": ",",
-                                "type": "comma"
-                            },
-                            {
-                                "innerText": "Memorial Bell Tower",
-                                "text": "\"Memorial Bell Tower\"",
-                                "type": "string"
-                            }
-                        ],
-                        "type": "macro"
-                    },
-                    {
-                        "text": " to meorialize him",
+                        "text": " \"The best thing for you, then is some good old fashioned fresh air and susnshine.  I saw a poster earlier that said that even cures the flu!\"",
                         "type": "text"
                     },
                     {
@@ -796,78 +1617,47 @@
                         "type": "br"
                     },
                     {
-                        "text": "Alex has survived!, you are grateful but realize many others didn't.  GO to the ",
+                        "text": "Alex laughs lightly and nods. “All right. Let’s be off.",
                         "type": "text"
                     },
                     {
-                        "innerText": "link-goto:\"Memorial Bell Tower\",\"Memorial Bell Tower\"",
-                        "name": "linkgoto",
-                        "text": "(link-goto:\"Memorial Bell Tower\",\"Memorial Bell Tower\")",
-                        "tokens": [
-                            {
-                                "text": "link-goto:",
-                                "type": "macroName"
-                            },
-                            {
-                                "innerText": "Memorial Bell Tower",
-                                "text": "\"Memorial Bell Tower\"",
-                                "type": "string"
-                            },
-                            {
-                                "text": ",",
-                                "type": "comma"
-                            },
-                            {
-                                "innerText": "Memorial Bell Tower",
-                                "text": "\"Memorial Bell Tower\"",
-                                "type": "string"
-                            }
-                        ],
-                        "type": "macro"
+                        "text": "\n",
+                        "type": "br"
                     },
                     {
-                        "text": " to pay respects to those like Eliza who passed away.",
-                        "type": "text"
-                    }
-                ]
-            },
-            {
-                "Name": "Mary Yarborough Court",
-                "Pid": "8",
-                "Tags": "",
-                "Tokens": [
+                        "text": "\n",
+                        "type": "br"
+                    },
                     {
-                        "text": "Proceed back to the library at ",
+                        "text": "You smile and move toward the door  \"Where to? There's a courtyard  that looked pleasant or a line at the infirmary, Winslow Hall that we can investigate, or a Victory GArden, apprently, is somewhere on campus.\"",
                         "type": "text"
                     },
                     {
-                        "innerText": "link-goto:\"Brooks Hall\",\"Brooks Hall\"",
-                        "name": "linkgoto",
-                        "text": "(link-goto:\"Brooks Hall\",\"Brooks Hall\")",
-                        "tokens": [
-                            {
-                                "text": "link-goto:",
-                                "type": "macroName"
-                            },
-                            {
-                                "innerText": "Brooks Hall",
-                                "text": "\"Brooks Hall\"",
-                                "type": "string"
-                            },
-                            {
-                                "text": ",",
-                                "type": "comma"
-                            },
-                            {
-                                "innerText": "Brooks Hall",
-                                "text": "\"Brooks Hall\"",
-                                "type": "string"
-                            }
-                        ],
-                        "type": "macro"
+                        "text": "\n",
+                        "type": "br"
                     },
                     {
-                        "text": " or move back to ",
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Alex sighs, \" I'm pretty tired.  How about the courtyard to start.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<else>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " \"The best thing for you is to get to the infirmary right now!  You need a doctor's care.  I will walk you to ",
                         "type": "text"
                     },
                     {
@@ -897,8 +1687,294 @@
                         "type": "macro"
                     },
                     {
-                        "text": " to check on Alex",
+                        "text": " and then do some research see if I can figure out what's wrong.",
                         "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Alex smiled wanly. \"All right, doctor\" he tried to joke, \"I'll go, but you just go on.  You must want to look around. and I know you, you will want to go directly to the library.  It's over in Brooks Hall ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "<<endif>>",
+                        "type": "error"
+                    }
+                ]
+            },
+            {
+                "Name": "SAS Hall",
+                "Pid": "15",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "The field is covered with cadets in uniform beginning traning exercises.  They all look fit and healthy; quite a feat with the illness spreading on campus.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I looks around the field and see a football player warming up near by. It looks like William C. Lee.  He was a fullback and had returned from France only recenlty.  He had fought bravely and now returned to finish his degree and the ROTC program.  He wanted to stay in the army and train soldiers.  ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I approach him and he nods in my direction. \"Good morning sir,\" I greet him.  \"I wondered if you knew anything about the illness spreading through the students here,  My friend may be ill, and I am trying to treat him.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Probably influenza.  I saw it on the front before I retuned home.  It is a nasty disease.  Physical fitness is the key.  Your body can fight the battle with the proper weapons. \" He nods towards the training students on the field.  \"Train the body and the mind.\"  ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Thank you, sir.  I will keep that in mind.\"  I wander off the field watching the sodiers.  William is right, but I decide that this would be best after Alex is well.  I really should go to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"kitchens\",\"Leazar Hall\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"kitchens\",\"Leazar Hall\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "kitchens",
+                                "text": "\"kitchens\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Leazar Hall",
+                                "text": "\"Leazar Hall\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " and get some good food.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "you win",
+                "Pid": "16",
+                "Tags": "Alex-Wins",
+                "Tokens": [
+                    {
+                        "text": "“Unlikely,” I say grinning”  “I’m going to be a soldier!”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " “I thought you were going to be a doctor, and heal the wounded.”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“I can do both, of course,” I reply scornfully. “I will be an army medic.” I nod and smile proudly. His grandfather had told him stories of great battle medics in the Civil War and the army doctors who saved the lives of soldiers so they would defend their country. “What do you want to be?”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " Alex thinks a minute and shrugged. ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<radio \"$profession\" \"Farmer\" checked>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " Farmer?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<radiobutton \"$profession\" \"Engineer\" checked>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " Engineer?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<radiobutton \"$profession\" \"Doctor\" checked>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " Doctor?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I guess.  I hate fighting, and you always win anyway.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I shake my head mournfully.  “That’s boring. What will you do if someone gets sick way out in the middle of nowhere?”  ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“My grandda always said that doctors are quacks. I will be” Alex said more firmly, “and learn how to heal my family with herbs and stuff.  That’s what my gramma used to do.”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“You’re going to be a quack?!” I howled in laughter",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“I am not!\" Alex yelled defiantly.  \"Come here. I'll get you!”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"The memory fades again\",\"Welcome\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"The memory fades again\",\"Welcome\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "The memory fades again",
+                                "text": "\"The memory fades again\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Welcome",
+                                "text": "\"Welcome\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
                     },
                     {
                         "text": "\n",
@@ -907,19 +1983,1083 @@
                 ]
             },
             {
-                "Name": "Victory Garden",
-                "Pid": "9",
+                "Name": "Alex crows in triumph",
+                "Pid": "17",
                 "Tags": "",
                 "Tokens": [
                     {
-                        "text": "Double-click this passage to edit it.",
+                        "text": "“Not likely,” Alex said grinning”  “I’m going to be a soldier!”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " “I thought you were going to be a doctor, and heal the wounded.”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“I can do both, of course,” Alex replied scornfully. “I will be an army medic.” Alex nodded and smiled proudly. His grandfather had told him stories of great battle medics in the Civil War and the army doctors who saved the lives of soldiers so they would defend their country. “What do you want to be?”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<\"$name\" \"\">>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " thought a minute and shrugged. ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<radiobutton \"$profession\" \"Farmer\" checked>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " Farmer?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<radiobutton \"$profession\" \"Engineer\" checked>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " Engineer?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<radiobutton \"$profession\" \"Doctor\" checked>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " Doctor?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " I guess.”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“Alex shook his head mournfully.  “That’s boring. What will you do if someone gets sick way out in the middle of nowhere?”  ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“My grandda always said that doctors are quacks. I will be,” I say more firmly, “and learn how to heal my family with herbs and stuff.  That’s what my gramma used to do.”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“You’re going to be a quack?!” Alex howled in laughter”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "“I am not!\" I say defiantly.  \"Come here. I’m going to shoot you with my rifle and run you through with my bayonet!”",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"The memory fades again\",\"Welcome\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"The memory fades again\",\"Welcome\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "The memory fades again",
+                                "text": "\"The memory fades again\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Welcome",
+                                "text": "\"Welcome\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "find him soon",
+                "Pid": "18",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "I finsih reading the sign, hoping it will direct me to the right direction.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"The journey you are about to take is a long one but immensely rewarding for you, your family, and your community. As you think of the journey of a university education you smile and think back to the moment you decided to pursue this course, when you played with your childhood friend Alex and planned your future.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I open my acceptance letter and glance once again at the map included and the assignment of the dorm for the next year. Watauga Hall! I smile in anticipation again, and head to the Main Building, ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Holladay Hall\",\"Holladay Hall\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Holladay Hall\",\"Holladay Hall\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Holladay Hall",
+                                "text": "\"Holladay Hall\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Holladay Hall",
+                                "text": "\"Holladay Hall\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " to gather the information I will need to get settled and meet with Alex.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<img src=\"Images/Map 1916.jpg\" />",
+                        "type": "tag"
+                    }
+                ]
+            },
+            {
+                "Name": "Victory Gardens!",
+                "Pid": "19",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "<img src=\"Images/Victory Garden.jpg\" />",
+                        "type": "tag"
+                    }
+                ]
+            },
+            {
+                "Name": "Battle the Flu",
+                "Pid": "20",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "<img src=\"Images/influenzA.jpg\" />",
+                        "type": "tag"
+                    }
+                ]
+            },
+            {
+                "Name": "Agricultural Extension",
+                "Pid": "21",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "<img src=\"Agricultural Extnesion.jpg\" />",
+                        "type": "tag"
+                    }
+                ]
+            },
+            {
+                "Name": "classrooms and laboratories",
+                "Pid": "22",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "I leave the building feeling a little overwhelmed, but excited too.  I still wanted to be ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "<<$profession\">>",
+                        "type": "error"
+                    },
+                    {
+                        "text": ", and that journey had begun. I wander towards Watauga, enjoying the heavy air of a North Carolina summer day and the perfume of the flowers surrounding the building.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I look towards ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Watauga Hall\",\"Watauga Hall\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Watauga Hall\",\"Watauga Hall\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Watauga Hall",
+                                "text": "\"Watauga Hall\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Watauga Hall",
+                                "text": "\"Watauga Hall\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " and decide to head straight there to drop off my bags.  ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<if $profession is \"Farmer\">>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " I look around the college buildings that sourround a garden plaza.  I note the infirmary close by but dismiss it for now. I begin making note of the greenhouses and tilled fields in the distance.  This is an agricultural schhol and your new home. I smile in delight.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<else>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " I make note of the infirmary neighboring the dormitory as I pass by, making a mental note to stop in later and get my vaccines and physical. I'd also like to talk to the doctos and nursese on staff.  It is never too early to begin learning the ropes. I smaile in satisfaction",
+                        "type": "text"
+                    },
+                    {
+                        "text": "<<endif>>",
+                        "type": "error"
+                    }
+                ]
+            },
+            {
+                "Name": "Yarborough Court",
+                "Pid": "23",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "\"Mister!  Hey Mister!!\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I enter a large green courtyard with flowers and grass surrounding a central plaza.  It sits in the center of the few original building on campus.  I see a small girl of about 8 years old playing with jacks in tiled area.  She is waving at me and jumping excitedly.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Mister! Hello mister!  My name is Mary.  May Yarborough.  I will go to college one day and be a famous person!  Maybe a scientist! Hey mister, do you want to ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"play jacks\",\"play jacks\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"play jacks\",\"play jacks\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "play jacks",
+                                "text": "\"play jacks\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "play jacks",
+                                "text": "\"play jacks\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<radiobutton \"$answer\" \"Yes\" checked>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " Yes?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<radiobutton \"$answer\" \"No\" checked>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " No?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "stacks",
+                "Pid": "24",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "I head over to the stacks, wondering if I can find any published information on the clinical trials or vaccines in general.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I spend some time readings and cross checking information.  There are so many differing opinions on what Alex may have wrong, not to mention the pros and cons of vaccines.  Some say they save lives and will extend human life.  Others claim they are deadly, far more trouble than they are worth. If it is Spanish Flu that was affecting Alex, it is extremely dangerous.  The flu is deadly in some cases, known for drastic and rapid changes in health and stability.  ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Alex's syptoms match the flu: dizziness, fever, sweats and exhaustion.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "One thing that occurs everywhere in the literature is that best to assist any treatments with proper nutrition.  I decide my next stop hsould be the kitchens in ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Leazar Hall\",\"Leazar Hall\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Leazar Hall\",\"Leazar Hall\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Leazar Hall",
+                                "text": "\"Leazar Hall\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Leazar Hall",
+                                "text": "\"Leazar Hall\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".  Perhaps I can make some restortive broth.",
                         "type": "text"
                     }
                 ]
             },
             {
-                "Name": "Memorial Bell Tower",
-                "Pid": "10",
+                "Name": "Leazar Hall",
+                "Pid": "25",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "I enter the Kitchens of Leazar Hall and see several women busily preparing food.  One steps forward with a smile and and air of care and concern.  ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"How can I help, sir?\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "It is Ella Mc Guire, making up some broth for her patients.  She is a legend among the students, calm and caring.  She acts like a mother to many of the men here so homescik for a mother's concern.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I've chatted with her before. She told me she was a freed slave who worked most of her young life on a plantations, but came to Raleigh when she was freed.  She is shocked at the Spanish Flu and has been helping as she could with nursing and care.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<if $profession is \"Farmer\">>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I ask her about folk remedies she knows and she describes some recipes for tea that have willow bark for pain and fever.  I ask if she knows about the herbs and she directs me to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Victory Garden\",\"Victory Garden\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Victory Garden\",\"Victory Garden\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Victory Garden",
+                                "text": "\"Victory Garden\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Victory Garden",
+                                "text": "\"Victory Garden\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " and I will find what I need.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<else>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " I ask Ms. McGuire for some special broth that I can take to Alex.  It is important he regain some strength and his natural resistance before he can enter any trial.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "She is kind as she prepares the broth for me to take over.  She offers to put some herbs or other natural remdies, but I refuse. ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Thank you, but no.  If he does enter the trial, I wouldn't want to interfere with that.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I leave the kitchens and head to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"infirmary\",\"Winslow Hall 2\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"infirmary\",\"Winslow Hall 2\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "infirmary",
+                                "text": "\"infirmary\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Winslow Hall 2",
+                                "text": "\"Winslow Hall 2\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<endif>>",
+                        "type": "error"
+                    }
+                ]
+            },
+            {
+                "Name": "Winslow Hall 2",
+                "Pid": "26",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You enter the cot strewn first floor and wind your way through cots lined from one end to the other.  You frown as you look at there patients; who will help them?  You find Alex and deliver the broth Ms McGuire gave you.  He is only partially conscious but you are able to give him some broth.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I wish I could discuss the clinical trials and the the advantages of various treatments but that will ahve to wait",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Only time will tell now.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\" \",\"Bell Tower\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\" \",\"Bell Tower\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": " ",
+                                "text": "\" \"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Bell Tower",
+                                "text": "\"Bell Tower\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "dorms",
+                "Pid": "27",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "As I enter our room, I start to panic.  Alex is gone!  I grab another student and ask where Alex went.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Alex took a turn for the worse and we took him to the infirmary.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Thanks!\" I say as i dart back out and run over to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Winslow Hall\",\"Winslow Hall\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Winslow Hall\",\"Winslow Hall\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Winslow Hall",
+                                "text": "\"Winslow Hall\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Winslow Hall",
+                                "text": "\"Winslow Hall\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Bell Tower",
+                "Pid": "28",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "<img src=\"Memorial Tower 2.jpg\" />",
+                        "type": "tag"
+                    }
+                ]
+            },
+            {
+                "Name": "play jacks",
+                "Pid": "29",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "<<if $answer is \"Yes\">>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " I smile in amusement and cover a laugh with a small cough.  \"Of course poppet, but I can't play long.  I need to go to the library.\" I play jacks for a bit, and then sit up.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Thanks for the game, Mary but I should get on.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Ok, thanks mister.  Hey Mister!  don't go near the library. I hear there was a trial going on!  I wonder what he did wrong! Maybe murder!\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Trial?\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Yes, they said it was a trial where they shoot people! A pineapple trial\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " I stare at her bemused and then it strikes me \"A clinical trial?\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " \"Yeah that's it. They said they were gonna shoot people with stuff in the garden.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " I cough again to smother a laugh and nod seriously. \"A clinical trial.  I will be careful.  Thanks, Mary\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "<<else>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": " \"Not now little girl.  I am very busy.  Maybe later\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"Ok, mister,\" she says looking dejected.  \"But be carefule near the library!\"  she skips off before you can question her furhter.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "<<endif>>",
+                        "type": "error"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You proceed to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Library\",\"Brooks Hall\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Library\",\"Brooks Hall\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Library",
+                                "text": "\"Library\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Brooks Hall",
+                                "text": "\"Brooks Hall\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "Begin",
+                "Pid": "30",
                 "Tags": "",
                 "Tokens": [
                     {
@@ -929,6 +3069,6 @@
                 ]
             }
         ],
-        "startPid": "1"
+        "startPid": "3"
     }
 }
