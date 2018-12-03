@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{8781A425-8C94-6B47-18ED-C877F2EACEB7}</ProjectGuid>
+    <ProjectGuid>{836F7C22-134A-1436-1037-ADF08D2D21E1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -173,16 +173,16 @@
     <None Include="Assets\Cradle\Editor\ThirdParty\PhantomJS\third-party.txt" />
     <None Include="Assets\Cradle\Editor\Templates\Story.template" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -397,6 +397,12 @@
     <Reference Include="UnityEditor.Networking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions.Editor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.GoogleAudioSpatializer">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
@@ -431,61 +437,61 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Cradle">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Cradle/Cradle.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Cradle/Cradle.dll</HintPath>
     </Reference>
     <Reference Include="Cradle.Editor">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Cradle/Editor/Cradle.Editor.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Cradle/Editor/Cradle.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Nustache.Core">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Cradle/Editor/ThirdParty/Nustache/Nustache.Core.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Cradle/Editor/ThirdParty/Nustache/Nustache.Core.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.IO.Compression">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.Json">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
     </Reference>
     <Reference Include="AsyncBridge.Net35">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Logging">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Unity">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Posix">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
     </Reference>
     <Reference Include="ReadOnlyCollectionsInterfaces">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading">
-      <HintPath>C:/Users/Adminuser/Desktop/NCSU History GPS Game/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
+      <HintPath>D:/Development/visnar/1887-Project/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/Adminuser/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Christopher Maynard/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/Adminuser/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/Christopher Maynard/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Analytics">
-      <HintPath>C:/Users/Adminuser/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
+      <HintPath>C:/Users/Christopher Maynard/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/Adminuser/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/Christopher Maynard/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/Adminuser/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Christopher Maynard/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
@@ -526,11 +532,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{3397D5D0-5B9F-4F5C-0217-0B483D7684D7}</Project>
+      <Project>{3D27CA66-3AF6-49B7-36D3-A722381EA61C}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{A32AA0E0-0D53-E0B9-1843-BD211FDE36AA}</Project>
+      <Project>{E991E946-4C55-E501-2AD7-331A1FDAA810}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
