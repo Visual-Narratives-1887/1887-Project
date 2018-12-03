@@ -15,8 +15,8 @@
                 "Tags": ""
             },
             {
-                "Body": "<span class=\"passage\">Gun fire erupts and sounds of violence and screaming rend the air </span>\n\n[[I am Shot!]]\n\n[[I shoot the enemy]]\n\n<<set $health to 50>>",
-                "Name": "childhood",
+                "Body": "Gun fire erupts and sounds of violence and screaming rend the air\n<<set $name to \"Jimmy\">>\n[[I am Shot!]]\n\n[[I shoot the enemy]]\n\n<<set $health to 50>>",
+                "Name": "start",
                 "Pid": "3",
                 "Tags": ""
             },
@@ -75,126 +75,120 @@
                 "Tags": ""
             },
             {
-                "Body": "What is your name?\nWelcome To NC State!\n\n[[Welcome|childhood]]",
-                "Name": "Start",
-                "Pid": "13",
-                "Tags": ""
-            },
-            {
                 "Body": "“ My trip went well. Stupendously uneventful, I’m afraid.”  You gaze at Alex again and notice him closing his eyes and grimacing, as if in pain.  You don't look all that great.  What can I do to help?”\n\n“Nothing.  Really.  Jacob arrived home last week and we’ve been staying up late the last week or so catching up.  He has so many amazing stories about France and the trenches.  He’s a real hero.  I am just a little tired”\n\nYou nod and wait excitedly.  Jacob is Alex’s older brother who was sent home from the Western front due to illness.  He was kept in the hospital and then Camp Polk for several days before being given leave to visit home before returning to France. He was needed at the front as a trained field medic. Alex admired him greatly and was determined to follow in his footsteps. \n\n<<if $profession is \"Farmer\">> \"The best thing for you, then is some good old fashioned fresh air and susnshine.  I saw a poster earlier that said that even cures the flu!\"\n\nAlex laughs lightly and nods. “All right. Let’s be off.\n\nYou smile and move toward the door  \"Where to? There's a courtyard  that looked pleasant or a line at the infirmary, Winslow Hall that we can investigate, or a Victory Garden, apprently, is somewhere on campus.\"\n\nAlex sighs, \" I'm pretty tired.  How about the [[courtyard|Patterson Hall]] to start.\"\n\n<<else>> \"The best thing for you is to get to the infirmary right now!  You need a doctor's care.  I will walk you to [[Winslow Hall]] and then do some research see if I can figure out what's wrong.\n\nAlex smiled wanly. \"All right, doctor\" he tried to joke, \"I'll go, but you just go on.  You must want to look around. and I know you, you will want to go directly to the library.  It's over in Brooks Hall <<endif>>",
                 "Name": "Was it eventful",
-                "Pid": "14",
+                "Pid": "13",
                 "Tags": ""
             },
             {
                 "Body": "<img src =\"https://iiif.lib.ncsu.edu/iiif/0000088/0,0,11925,9619/746,/0/default.jpg\" width=\"550px\" height=\"400px\" >\nThe field is covered with cadets in uniform beginning traning exercises.  They all look fit and healthy; quite a feat with the illness spreading on campus.\n\nI looks around the field and see a football player warming up near by. It looks like William C. Lee.  He was a fullback and had returned from France only recenlty.  He had fought bravely and now returned to finish his degree and the ROTC program.  He wanted to stay in the army and train soldiers.  \n\nI approach him and he nods in my direction. \"Good morning sir,\" I greet him.  \"I wondered if you knew anything about the illness spreading through the students here,  My friend may be ill, and I am trying to treat him.\"\n\n\"Probably influenza.  I saw it on the front before I retuned home.  It is a nasty disease.  Physical fitness is the key.  Your body can fight the battle with the proper weapons. \" He nods towards the training students on the field.  \"Train the body and the mind.\"  \n\n\"Thank you, sir.  I will keep that in mind.\"  I wander off the field watching the sodiers.  William is right, but I decide that this would be best after Alex is well.  I really should go to the [[kitchens|Leazar Hall]] and get some good food.",
                 "Name": "SAS Hall",
-                "Pid": "15",
+                "Pid": "14",
                 "Tags": ""
             },
             {
                 "Body": "“Unlikely,” I say grinning”  “I’m going to be a soldier!”\n\n “I thought you were going to be a doctor, and heal the wounded.”\n\n“I can do both, of course,” I reply scornfully. “I will be an army medic.” I nod and smile proudly. His grandfather had told him stories of great battle medics in the Civil War and the army doctors who saved the lives of soldiers so they would defend their country. “What do you want to be?”\n\n Alex thinks a minute and shrugged. \n \n\nA Farmer I guess.  I hate fighting, and you always win anyway.\n\nI shake my head mournfully.  “That’s boring. What will you do if someone gets sick way out in the middle of nowhere?”  \n\n“My grandda always said that doctors are quacks. I will be” Alex said more firmly, “and learn how to heal my family with herbs and stuff.  That’s what my gramma used to do.”\n\n“You’re going to be a quack?!” I howled in laughter\n\n“I am not!\" Alex yelled defiantly.  \"Come here. I'll get you!”\n\n\n[[The memory fades->Welcome]]\n\n",
                 "Name": "you win",
-                "Pid": "16",
+                "Pid": "15",
                 "Tags": "Alex-Wins"
             },
             {
                 "Body": "“Not likely,” Alex said grinning”  “I’m going to be a soldier!”\n\n “I thought you were going to be a doctor, and heal the wounded.”\n\n“I can do both, of course,” Alex replied scornfully. “I will be an army medic.” Alex nodded and smiled proudly. His grandfather had told him stories of great battle medics in the Civil War and the army doctors who saved the lives of soldiers so they would defend their country. “What do you want to be?”\n\n\n\"I'm not sure.  A Doctor, I guess.”\n\n“Alex shook his head mournfully.  “That’s boring. What will you do if someone needs food in the city.  What are you gonna do,  all you can do is give them medicine!”  \n\n“My grandda always said that farmers are quacks, always making up snake oil. I will be a doctor,” I say more firmly, “and learn how to heal my family with medicines and stuff.  That’s what my gramma used to do.”\n\n“You’re going to be a quack?!” Alex howled in laughter”\n\n“I am not!\" I say defiantly.  \"Come here. I’m going to shoot you with my rifle and run you through with my bayonet!”\n\n\n[[The memory fades ->Welcome]]\n\n",
                 "Name": "Alex crows in triumph",
-                "Pid": "17",
+                "Pid": "16",
                 "Tags": ""
             },
             {
                 "Body": "I finish reading the sign, hoping it will direct me to the right direction.\n\n\"The journey you are about to take is a long one but immensely rewarding for you, your family, and your community. As you think of the journey of a university education you smile and think back to the moment you decided to pursue this course, when you played with your childhood friend Alex and planned your future.\"\n\nI open my acceptance letter and glance once again at the map included and the assignment of the dorm for the next year. Watauga Hall! I smile in anticipation again, and head to the Main Building, [[Holladay Hall]] to gather the information I will need to get settled and meet with Alex.\n\n\n<img src=\"Images/Map 1916.jpg\" />",
                 "Name": "find him soon",
-                "Pid": "18",
+                "Pid": "17",
                 "Tags": ""
             },
             {
                 "Body": "\n<img src=\"https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2011/05/24/LocalLiving/Images/ho-higgins26-victoryBW.jpg?t=20170517\" width=\"300px\" height=\"400px\">",
                 "Name": "Victory Gardens!",
-                "Pid": "19",
+                "Pid": "18",
                 "Tags": ""
             },
             {
                 "Body": "\n<img src =\"https://www.laphamsquarterly.org/sites/default/files/images/roundtable/1918main.jpg\" width=\"550px\" height=\"400px\" >\n",
                 "Name": "Battle the Flu",
-                "Pid": "20",
+                "Pid": "19",
                 "Tags": ""
             },
             {
                 "Body": "[img[\"https://iiif.lib.ncsu.edu/iiif/gng00413_001/0,0,4167,6245/261,/0/default.jpg\"]]",
                 "Name": "Agricultural Extension",
-                "Pid": "21",
+                "Pid": "20",
                 "Tags": ""
             },
             {
                 "Body": "I leave the building feeling a little overwhelmed, but excited too.  I wanted to be successful, and that journey had begun. I wander towards Watauga, enjoying the heavy air of a North Carolina summer day and the perfume of the flowers surrounding the building.\n\nI look towards [[Watauga Hall]] and decide to head straight there to drop off my bags.  \n\n<img src=\"https://iiif.lib.ncsu.edu/iiif/0003223/square/300,/0/default.jpg\" />\n\n<<if $profession is \"Farmer\">> \nI look around the college buildings that sourround a garden plaza.  I note the infirmary close by but dismiss it for now. I begin making note of the greenhouses and tilled fields in the distance.  This is an agricultural schhol and your new home. I smile in delight.\n\n<<else>> \nI make note of the infirmary neighboring the dormitory as I pass by, making a mental note to stop in later and get my vaccines and physical. I'd also like to talk to the doctos and nursese on staff.  It is never too early to begin learning the ropes. I smile in satisfaction \n\n<<endif>>",
                 "Name": "classrooms and laboratories",
-                "Pid": "22",
+                "Pid": "21",
                 "Tags": ""
             },
             {
                 "Body": "\"Mister!  Hey Mister!!\"\n<img src=\"https://iiif.lib.ncsu.edu/iiif/0004941/square/300,/0/default.jpg\" />\nI enter a large green courtyard with flowers and grass surrounding a central plaza.  It sits in the center of the few original building on campus.  I see a small girl of about 8 years old playing with jacks in tiled area.  She is waving at me and jumping excitedly.\n\n\"Mister! Hello mister!  My name is Mary.  May Yarborough.  I will go to college one day and be a famous person!  Maybe a scientist! Hey mister, do you want to play jacks?\"\n\n[[Yes|play jacks]]\n\n[[No]]",
                 "Name": "Yarborough Court",
-                "Pid": "23",
+                "Pid": "22",
                 "Tags": ""
             },
             {
                 "Body": "<img src=\"https://iiif.lib.ncsu.edu/iiif/0228522/square/300,/0/default.jpg\" />\nI head over to the stacks, wondering if I can find any published information on the clinical trials or vaccines in general.\n\nI spend some time readings and cross checking information.  There are so many differing opinions on what Alex may have wrong, not to mention the pros and cons of vaccines.  Some say they save lives and will extend human life.  Others claim they are deadly, far more trouble than they are worth. If it is Spanish Flu that was affecting Alex, it is extremely dangerous.  The flu is deadly in some cases, known for drastic and rapid changes in health and stability.  \n\nAlex's syptoms match the flu: dizziness, fever, sweats and exhaustion.\n\nOne thing that occurs everywhere in the literature is that best to assist any treatments with proper nutrition.  I decide my next stop hsould be the kitchens in [[Leazar Hall]].  Perhaps I can make some restortive broth.\n\n\n",
                 "Name": "stacks",
-                "Pid": "24",
+                "Pid": "23",
                 "Tags": "Brooks"
             },
             {
                 "Body": "<img src=\"https://iiif.lib.ncsu.edu/iiif/0004087/square/300,/0/default.jpg\" />\nI enter the Kitchens of Leazar Hall and see several women busily preparing food.  One steps forward with a smile and and air of care and concern.  \n\n<img src=\"https://i.imgur.com/4SR3Kum.png\" />\n\n\"How can I help, sir?\"\n\nIt is Ella Mc Guire, making up some broth for her patients.  She is a legend among the students, calm and caring.  She acts like a mother to many of the men here so homesick for a mother's concern.\nI've chatted with her before. She told me she was a freed slave who worked most of her young life on a plantations, but came to Raleigh when she was freed.  She is shocked at the Spanish Flu and has been helping as she could with nursing and care.\n\n<<if $profession is \"Farmer\">> \nI ask her about folk remedies she knows and she describes some recipes for tea that have willow bark for pain and fever.  I ask if she knows about the herbs and she directs me to the [[Victory Garden]] and I will find what I need.\n\n\n<<else>> I ask Ms. McGuire for some special broth that I can take to Alex.  It is important he regain some strength and his natural resistance before he can enter any trial.\n\nShe is kind as she prepares the broth for me to take over.  She offers to put some herbs or other natural remdies, but I refuse. \n\"Thank you, but no.  If he does enter the trial, I wouldn't want to interfere with that.\"\nI leave the kitchens and head to the [[infirmary|Winslow Hall 2]] \n\n<<endif>>",
                 "Name": "Leazar Hall",
-                "Pid": "25",
+                "Pid": "24",
                 "Tags": ""
             },
             {
                 "Body": "<img src=\"https://www.sanluisobispo.com/news/local/news-columns-blogs/times-past/jekxfe/picture187746438/alternates/FREE_1140/Invalid%20Ward%20Camp%20Funston--Ft.%20Riley%201918\" width=\"550px\" height=\"400px\">\nYou enter the cot strewn first floor and wind your way through cots lined from one end to the other.  You frown as you look at there patients; who will help them?  You find Alex and deliver the broth Ms McGuire gave you.  He is only partially conscious but you are able to give him some broth.\n\nI wish I could discuss the clinical trials and the the advantages of various treatments but that will ahve to wait\n\nOnly time will tell now.\n\n[[End |Bell Tower]]",
                 "Name": "Winslow Hall 2",
-                "Pid": "26",
+                "Pid": "25",
                 "Tags": ""
             },
             {
                 "Body": "Ireturn to Watauga Hall with a spring in my step.  I know what I have brought will heal Alex.  \nAs I enter our room, I start to panic.  Alex is gone!  I grab another student and ask where Alex went.\n\n\"Alex took a turn for the worse and we took him to the infirmary.\"\n\n\"Thanks!\" I say as i dart back out and run over to the [[Winslow Hall]] ",
                 "Name": "dorms",
-                "Pid": "27",
+                "Pid": "26",
                 "Tags": ""
             },
             {
                 "Body": "<img src=Images/\"Memorial Tower 2.jpg\" />",
                 "Name": "Bell Tower",
-                "Pid": "28",
+                "Pid": "27",
                 "Tags": ""
             },
             {
                 "Body": " I smile in amusement and cover a laugh with a small cough.  \"Of course poppet, but I can't play long.  I need to go to the library.\" I play jacks for a bit, and then sit up.\n\"Thanks for the game, Mary but I should get on.\"\n\n\"Ok, thanks mister.  Hey Mister!  don't go near the library. I hear there was a trial going on!  I wonder what he did wrong! Maybe murder!\"\n\n\"Trial?\"\n\n\"Yes, they said it was a trial where they shoot people! A pineapple trial\"\n I stare at her bemused and then it strikes me [[\"A clinical trial?\"|Brooks Hall]]\n \n \"Yeah that's it. They said they were gonna shoot people with stuff in the garden.\"\n \n I cough again to smother a laugh and nod seriously. \"A clinical trial.  I will be careful.  Thanks, Mary\"\n\n ",
                 "Name": "play jacks",
-                "Pid": "29",
+                "Pid": "28",
                 "Tags": ""
             },
             {
                 "Body": " \n “Alex! I’ve got you!  Bang Bang!”\n\n I grin, \"No! I've got you!  I pulled out my pistol first!\"  Bang Bang!\n\n“Arrrrrrg! “ Alex falls to the ground theatrically and you laugh delightedly. \"[[you win]] this time, but I will get my revenge the next battle we have!\"\n\n \n \n <<set $profession to \"farmer\">>",
                 "Name": "I am Shot!",
-                "Pid": "30",
+                "Pid": "29",
                 "Tags": "Farmer1"
             },
             {
                 "Body": "\nAlex neatly ducks the shot and points his rifle at you. \"Bang Bang!\" I stop in my tracks and clutch my chest. \"Arrrrrrg.\"  I fall dramatically to the ground and start convulsing grotesquely.  [[Alex crows in triumph]] as he laughs. \"I win!  I win!\"\n\nI smile and stop my death spasms and sit up. \"Maybe you won this time, but not for long!\"\n\n \n \n<<set $profession to \"doctor\">>",
                 "Name": "I shoot the enemy",
-                "Pid": "31",
+                "Pid": "30",
                 "Tags": ""
             },
             {
                 "Body": "\"Not now little girl.  I am very busy.  Maybe later\"\n\n\"Ok, mister,\" she says looking dejected.  \"But be carefule near the library!\"  she skips off before you can question her furhter.\n\nYou proceed to the [[Library|Brooks Hall]]\n\n",
                 "Name": "No",
-                "Pid": "32",
+                "Pid": "31",
                 "Tags": ""
             }
         ],
-        "startPid": "13"
+        "startPid": "3"
     }
 }

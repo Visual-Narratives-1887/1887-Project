@@ -48,7 +48,7 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 	@GameplayNarrative()
 	{
-		this.StartPassage = "Start";
+		this.StartPassage = "start";
 
 		base.Vars = new VarDefs() { Story = this, StrictMode = false };
 
@@ -85,7 +85,6 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 		passage29_Init();
 		passage30_Init();
 		passage31_Init();
-		passage32_Init();
 	}
 
 	// ---------------
@@ -165,17 +164,18 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #3: childhood
+	// #3: start
 
 	void passage3_Init()
 	{
-		this.Passages[@"childhood"] = new StoryPassage(@"childhood", new string[]{  }, passage3_Main);
+		this.Passages[@"start"] = new StoryPassage(@"start", new string[]{  }, passage3_Main);
 	}
 
 	IStoryThread passage3_Main()
 	{
-		yield return text(@"<span class=""passage"">Gun fire erupts and sounds of violence and screaming rend the air </span>");
+		yield return text(@"Gun fire erupts and sounds of violence and screaming rend the air");
 		yield return lineBreak();
+		Vars.name = "Jimmy";
 		yield return lineBreak();
 		yield return link(@"I am Shot!", @"I am Shot!", null);
 		yield return lineBreak();
@@ -563,35 +563,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #13: Start
+	// #13: Was it eventful
 
 	void passage13_Init()
 	{
-		this.Passages[@"Start"] = new StoryPassage(@"Start", new string[]{  }, passage13_Main);
+		this.Passages[@"Was it eventful"] = new StoryPassage(@"Was it eventful", new string[]{  }, passage13_Main);
 	}
 
 	IStoryThread passage13_Main()
-	{
-		yield return text(@"What is your name?");
-		yield return lineBreak();
-		yield return text(@"Welcome To NC State!");
-		yield return lineBreak();
-		yield return lineBreak();
-		yield return link(@"Welcome", @"childhood", null);
-		yield return lineBreak();
-		yield break;
-	}
-
-
-	// .............
-	// #14: Was it eventful
-
-	void passage14_Init()
-	{
-		this.Passages[@"Was it eventful"] = new StoryPassage(@"Was it eventful", new string[]{  }, passage14_Main);
-	}
-
-	IStoryThread passage14_Main()
 	{
 		yield return text(@"“ My trip went well. Stupendously uneventful, I’m afraid.”  You gaze at Alex again and notice him closing his eyes and grimacing, as if in pain.  You don't look all that great.  What can I do to help?”");
 		yield return lineBreak();
@@ -634,14 +613,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #15: SAS Hall
+	// #14: SAS Hall
 
-	void passage15_Init()
+	void passage14_Init()
 	{
-		this.Passages[@"SAS Hall"] = new StoryPassage(@"SAS Hall", new string[]{  }, passage15_Main);
+		this.Passages[@"SAS Hall"] = new StoryPassage(@"SAS Hall", new string[]{  }, passage14_Main);
 	}
 
-	IStoryThread passage15_Main()
+	IStoryThread passage14_Main()
 	{
 		yield return text(@"<img src =""https://iiif.lib.ncsu.edu/iiif/0000088/0,0,11925,9619/746,/0/default.jpg"" width=""550px"" height=""400px"" >");
 		yield return lineBreak();
@@ -666,14 +645,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #16: you win
+	// #15: you win
 
-	void passage16_Init()
+	void passage15_Init()
 	{
-		this.Passages[@"you win"] = new StoryPassage(@"you win", new string[]{ "Alex-Wins", }, passage16_Main);
+		this.Passages[@"you win"] = new StoryPassage(@"you win", new string[]{ "Alex-Wins", }, passage15_Main);
 	}
 
-	IStoryThread passage16_Main()
+	IStoryThread passage15_Main()
 	{
 		yield return text(@"“Unlikely,” I say grinning”  “I’m going to be a soldier!”");
 		yield return lineBreak();
@@ -714,14 +693,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #17: Alex crows in triumph
+	// #16: Alex crows in triumph
 
-	void passage17_Init()
+	void passage16_Init()
 	{
-		this.Passages[@"Alex crows in triumph"] = new StoryPassage(@"Alex crows in triumph", new string[]{  }, passage17_Main);
+		this.Passages[@"Alex crows in triumph"] = new StoryPassage(@"Alex crows in triumph", new string[]{  }, passage16_Main);
 	}
 
-	IStoryThread passage17_Main()
+	IStoryThread passage16_Main()
 	{
 		yield return text(@"“Not likely,” Alex said grinning”  “I’m going to be a soldier!”");
 		yield return lineBreak();
@@ -758,14 +737,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #18: find him soon
+	// #17: find him soon
 
-	void passage18_Init()
+	void passage17_Init()
 	{
-		this.Passages[@"find him soon"] = new StoryPassage(@"find him soon", new string[]{  }, passage18_Main);
+		this.Passages[@"find him soon"] = new StoryPassage(@"find him soon", new string[]{  }, passage17_Main);
 	}
 
-	IStoryThread passage18_Main()
+	IStoryThread passage17_Main()
 	{
 		yield return text(@"I finish reading the sign, hoping it will direct me to the right direction.");
 		yield return lineBreak();
@@ -786,14 +765,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #19: Victory Gardens!
+	// #18: Victory Gardens!
 
-	void passage19_Init()
+	void passage18_Init()
 	{
-		this.Passages[@"Victory Gardens!"] = new StoryPassage(@"Victory Gardens!", new string[]{  }, passage19_Main);
+		this.Passages[@"Victory Gardens!"] = new StoryPassage(@"Victory Gardens!", new string[]{  }, passage18_Main);
 	}
 
-	IStoryThread passage19_Main()
+	IStoryThread passage18_Main()
 	{
 		yield return lineBreak();
 		yield return text(@"<img src=""https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2011/05/24/LocalLiving/Images/ho-higgins26-victoryBW.jpg?t=20170517"" width=""300px"" height=""400px"">");
@@ -803,14 +782,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #20: Battle the Flu
+	// #19: Battle the Flu
 
-	void passage20_Init()
+	void passage19_Init()
 	{
-		this.Passages[@"Battle the Flu"] = new StoryPassage(@"Battle the Flu", new string[]{  }, passage20_Main);
+		this.Passages[@"Battle the Flu"] = new StoryPassage(@"Battle the Flu", new string[]{  }, passage19_Main);
 	}
 
-	IStoryThread passage20_Main()
+	IStoryThread passage19_Main()
 	{
 		yield return lineBreak();
 		yield return text(@"<img src =""https://www.laphamsquarterly.org/sites/default/files/images/roundtable/1918main.jpg"" width=""550px"" height=""400px"" >");
@@ -821,14 +800,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #21: Agricultural Extension
+	// #20: Agricultural Extension
 
-	void passage21_Init()
+	void passage20_Init()
 	{
-		this.Passages[@"Agricultural Extension"] = new StoryPassage(@"Agricultural Extension", new string[]{  }, passage21_Main);
+		this.Passages[@"Agricultural Extension"] = new StoryPassage(@"Agricultural Extension", new string[]{  }, passage20_Main);
 	}
 
-	IStoryThread passage21_Main()
+	IStoryThread passage20_Main()
 	{
 		yield return text(@"[img[""https://iiif.lib.ncsu.edu/iiif/gng00413_001/0,0,4167,6245/261,/0/default.jpg""]]");
 		yield return lineBreak();
@@ -837,14 +816,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #22: classrooms and laboratories
+	// #21: classrooms and laboratories
 
-	void passage22_Init()
+	void passage21_Init()
 	{
-		this.Passages[@"classrooms and laboratories"] = new StoryPassage(@"classrooms and laboratories", new string[]{  }, passage22_Main);
+		this.Passages[@"classrooms and laboratories"] = new StoryPassage(@"classrooms and laboratories", new string[]{  }, passage21_Main);
 	}
 
-	IStoryThread passage22_Main()
+	IStoryThread passage21_Main()
 	{
 		yield return text(@"I leave the building feeling a little overwhelmed, but excited too.  I wanted to be successful, and that journey had begun. I wander towards Watauga, enjoying the heavy air of a North Carolina summer day and the perfume of the flowers surrounding the building.");
 		yield return lineBreak();
@@ -879,14 +858,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #23: Yarborough Court
+	// #22: Yarborough Court
 
-	void passage23_Init()
+	void passage22_Init()
 	{
-		this.Passages[@"Yarborough Court"] = new StoryPassage(@"Yarborough Court", new string[]{  }, passage23_Main);
+		this.Passages[@"Yarborough Court"] = new StoryPassage(@"Yarborough Court", new string[]{  }, passage22_Main);
 	}
 
-	IStoryThread passage23_Main()
+	IStoryThread passage22_Main()
 	{
 		yield return text(@"""Mister!  Hey Mister!!""");
 		yield return lineBreak();
@@ -908,14 +887,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #24: stacks
+	// #23: stacks
 
-	void passage24_Init()
+	void passage23_Init()
 	{
-		this.Passages[@"stacks"] = new StoryPassage(@"stacks", new string[]{ "Brooks", }, passage24_Main);
+		this.Passages[@"stacks"] = new StoryPassage(@"stacks", new string[]{ "Brooks", }, passage23_Main);
 	}
 
-	IStoryThread passage24_Main()
+	IStoryThread passage23_Main()
 	{
 		yield return text(@"<img src=""https://iiif.lib.ncsu.edu/iiif/0228522/square/300,/0/default.jpg"" />");
 		yield return lineBreak();
@@ -940,14 +919,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #25: Leazar Hall
+	// #24: Leazar Hall
 
-	void passage25_Init()
+	void passage24_Init()
 	{
-		this.Passages[@"Leazar Hall"] = new StoryPassage(@"Leazar Hall", new string[]{  }, passage25_Main);
+		this.Passages[@"Leazar Hall"] = new StoryPassage(@"Leazar Hall", new string[]{  }, passage24_Main);
 	}
 
-	IStoryThread passage25_Main()
+	IStoryThread passage24_Main()
 	{
 		yield return text(@"<img src=""https://iiif.lib.ncsu.edu/iiif/0004087/square/300,/0/default.jpg"" />");
 		yield return lineBreak();
@@ -997,14 +976,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #26: Winslow Hall 2
+	// #25: Winslow Hall 2
 
-	void passage26_Init()
+	void passage25_Init()
 	{
-		this.Passages[@"Winslow Hall 2"] = new StoryPassage(@"Winslow Hall 2", new string[]{  }, passage26_Main);
+		this.Passages[@"Winslow Hall 2"] = new StoryPassage(@"Winslow Hall 2", new string[]{  }, passage25_Main);
 	}
 
-	IStoryThread passage26_Main()
+	IStoryThread passage25_Main()
 	{
 		yield return text(@"<img src=""https://www.sanluisobispo.com/news/local/news-columns-blogs/times-past/jekxfe/picture187746438/alternates/FREE_1140/Invalid%20Ward%20Camp%20Funston--Ft.%20Riley%201918"" width=""550px"" height=""400px"">");
 		yield return lineBreak();
@@ -1024,14 +1003,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #27: dorms
+	// #26: dorms
 
-	void passage27_Init()
+	void passage26_Init()
 	{
-		this.Passages[@"dorms"] = new StoryPassage(@"dorms", new string[]{  }, passage27_Main);
+		this.Passages[@"dorms"] = new StoryPassage(@"dorms", new string[]{  }, passage26_Main);
 	}
 
-	IStoryThread passage27_Main()
+	IStoryThread passage26_Main()
 	{
 		yield return text(@"Ireturn to Watauga Hall with a spring in my step.  I know what I have brought will heal Alex.  ");
 		yield return lineBreak();
@@ -1050,14 +1029,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #28: Bell Tower
+	// #27: Bell Tower
 
-	void passage28_Init()
+	void passage27_Init()
 	{
-		this.Passages[@"Bell Tower"] = new StoryPassage(@"Bell Tower", new string[]{  }, passage28_Main);
+		this.Passages[@"Bell Tower"] = new StoryPassage(@"Bell Tower", new string[]{  }, passage27_Main);
 	}
 
-	IStoryThread passage28_Main()
+	IStoryThread passage27_Main()
 	{
 		yield return text(@"<img src=Images/""Memorial Tower 2.jpg"" />");
 		yield return lineBreak();
@@ -1066,14 +1045,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #29: play jacks
+	// #28: play jacks
 
-	void passage29_Init()
+	void passage28_Init()
 	{
-		this.Passages[@"play jacks"] = new StoryPassage(@"play jacks", new string[]{  }, passage29_Main);
+		this.Passages[@"play jacks"] = new StoryPassage(@"play jacks", new string[]{  }, passage28_Main);
 	}
 
-	IStoryThread passage29_Main()
+	IStoryThread passage28_Main()
 	{
 		yield return text(@" I smile in amusement and cover a laugh with a small cough.  ""Of course poppet, but I can't play long.  I need to go to the library."" I play jacks for a bit, and then sit up.");
 		yield return lineBreak();
@@ -1107,14 +1086,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #30: I am Shot!
+	// #29: I am Shot!
 
-	void passage30_Init()
+	void passage29_Init()
 	{
-		this.Passages[@"I am Shot!"] = new StoryPassage(@"I am Shot!", new string[]{ "Farmer1", }, passage30_Main);
+		this.Passages[@"I am Shot!"] = new StoryPassage(@"I am Shot!", new string[]{ "Farmer1", }, passage29_Main);
 	}
 
-	IStoryThread passage30_Main()
+	IStoryThread passage29_Main()
 	{
 		yield return text(@" ");
 		yield return lineBreak();
@@ -1141,14 +1120,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #31: I shoot the enemy
+	// #30: I shoot the enemy
 
-	void passage31_Init()
+	void passage30_Init()
 	{
-		this.Passages[@"I shoot the enemy"] = new StoryPassage(@"I shoot the enemy", new string[]{  }, passage31_Main);
+		this.Passages[@"I shoot the enemy"] = new StoryPassage(@"I shoot the enemy", new string[]{  }, passage30_Main);
 	}
 
-	IStoryThread passage31_Main()
+	IStoryThread passage30_Main()
 	{
 		yield return lineBreak();
 		yield return text(@"Alex neatly ducks the shot and points his rifle at you. ""Bang Bang!"" I stop in my tracks and clutch my chest. ""Arrrrrrg.""  I fall dramatically to the ground and start convulsing grotesquely.  ");
@@ -1170,14 +1149,14 @@ public partial class @GameplayNarrative: Cradle.StoryFormats.Sugar.SugarStory
 
 
 	// .............
-	// #32: No
+	// #31: No
 
-	void passage32_Init()
+	void passage31_Init()
 	{
-		this.Passages[@"No"] = new StoryPassage(@"No", new string[]{  }, passage32_Main);
+		this.Passages[@"No"] = new StoryPassage(@"No", new string[]{  }, passage31_Main);
 	}
 
-	IStoryThread passage32_Main()
+	IStoryThread passage31_Main()
 	{
 		yield return text(@"""Not now little girl.  I am very busy.  Maybe later""");
 		yield return lineBreak();
