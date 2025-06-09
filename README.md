@@ -854,7 +854,7 @@
 </div>
 
 <div id="hovercard-aria-description" class="sr-only">
-  Press h to open a hovercard with more details.
+  Press h to open a hovercard with more details.1
 </div>
 
 
